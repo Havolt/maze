@@ -1,4 +1,5 @@
 .mazePage {
+   position: relative;
    display: flex;
    max-width: 100vw;
    overflow: hidden;
@@ -9,4 +10,9 @@
    width: 100%;
    height: auto;
    object-fit: cover;
+}
+
+.mazeImage {
+   position: relative;
+   height: auto;
 }

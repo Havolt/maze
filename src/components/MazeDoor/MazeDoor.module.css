@@ -1,0 +1,8 @@
+.door {
+   position: absolute;
+}
+
+.door:hover {
+   background-color: #add8e68e;
+   cursor: pointer;
+}

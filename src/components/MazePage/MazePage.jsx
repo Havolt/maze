@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 
+import MazeDoor from '../MazeDoor/MazeDoor'
+
 import Styles from './MazePage.module.css'
 
 function MazePage({currentPageCode = '00'}) {
@@ -44,10 +46,18 @@ function MazePage({currentPageCode = '00'}) {
             </p>
          ))}
       </div>
-      <picture>
-         <source srcSet={imgHref} />
-         <img src={imgHref} />
-      </picture>
+      <div className={Styles.mazeImage}>
+         {/* Image */}
+         <picture>
+            <source srcSet={imgHref} />
+            <img src={imgHref} />
+         </picture>
+
+         {/* Doors */}
+         {pageData.doors.map((door, index) => (
+            <MazeDoor key={index} door={door} />
+         ))}
+      </div>
       
       
     </div>
