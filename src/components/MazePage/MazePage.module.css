@@ -4,6 +4,7 @@
    max-width: 100vw;
    overflow: hidden;
    gap: 8px;
+   align-items: center;
 }
 
 .mazePage img {
@@ -14,5 +15,5 @@
 
 .mazeImage {
    position: relative;
-   height: auto;
+   height: fit-content;
 }
