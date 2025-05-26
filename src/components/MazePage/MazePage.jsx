@@ -1,12 +1,16 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 
 import MazeDoor from '../MazeDoor/MazeDoor'
 
 import Styles from './MazePage.module.css'
 
+import { getLocation } from '../../helpers/devUtils';
+
 function MazePage({currentPageCode = '00', onDoorClick}) {
 
    const [pageData, setPageData] = React.useState(null);
+
+   const myRef = useRef(null);
 
    const imgHref = `/maze-images/webp/${currentPageCode}.webp`;
 
@@ -46,7 +50,7 @@ function MazePage({currentPageCode = '00', onDoorClick}) {
             </p>
          ))}
       </div>
-      <div className={Styles.mazeImage}>
+      <div className={Styles.mazeImage} onClick={getLocation} ref={myRef}>
          {/* Image */}
          <picture>
             <source srcSet={imgHref} />
