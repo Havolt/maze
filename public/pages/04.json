@@ -8,28 +8,65 @@
    ],
    "doors": [
       {
-         "code": "00",
+         "code": "11",
          "xPosStart": 39,
          "xPosEnd": 61,
          "yPosStart": 34,
          "yPosEnd": 84
       },
       {
-         "code": "00",
+         "code": "15",
          "xPosStart": 39,
          "xPosEnd": 61,
          "yPosStart": 34,
          "yPosEnd": 84
       },
       {
-         "code": "00",
+         "code": "16",
          "xPosStart": 39,
          "xPosEnd": 61,
          "yPosStart": 34,
          "yPosEnd": 84
       },
       {
-         "code": "00",
+         "code": "24",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "29",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "39",
+         "trick": true,
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "42",
+         "trick": true,
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "43",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "44",
          "xPosStart": 39,
          "xPosEnd": 61,
          "yPosStart": 34,

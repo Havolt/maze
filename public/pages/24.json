@@ -7,34 +7,5 @@
       "“There are no doors,” said the voice. “You are here with the rest of us now…”",
       "Even my bellowing laughter couldn't fill this space."
    ],
-   "doors": [
-      {
-         "code": "00",
-         "xPosStart": 39,
-         "xPosEnd": 61,
-         "yPosStart": 34,
-         "yPosEnd": 84
-      },
-      {
-         "code": "00",
-         "xPosStart": 39,
-         "xPosEnd": 61,
-         "yPosStart": 34,
-         "yPosEnd": 84
-      },
-      {
-         "code": "00",
-         "xPosStart": 39,
-         "xPosEnd": 61,
-         "yPosStart": 34,
-         "yPosEnd": 84
-      },
-      {
-         "code": "00",
-         "xPosStart": 39,
-         "xPosEnd": 61,
-         "yPosStart": 34,
-         "yPosEnd": 84
-      }
-   ]
+   "doors": []
 }

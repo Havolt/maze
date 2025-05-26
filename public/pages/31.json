@@ -9,28 +9,29 @@
    ],
    "doors": [
       {
-         "code": "00",
+         "code": "08",
+         "trick": true,
          "xPosStart": 39,
          "xPosEnd": 61,
          "yPosStart": 34,
          "yPosEnd": 84
       },
       {
-         "code": "00",
+         "code": "19",
          "xPosStart": 39,
          "xPosEnd": 61,
          "yPosStart": 34,
          "yPosEnd": 84
       },
       {
-         "code": "00",
+         "code": "21",
          "xPosStart": 39,
          "xPosEnd": 61,
          "yPosStart": 34,
          "yPosEnd": 84
       },
       {
-         "code": "00",
+         "code": "44",
          "xPosStart": 39,
          "xPosEnd": 61,
          "yPosStart": 34,

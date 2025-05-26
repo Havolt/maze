@@ -9,28 +9,35 @@
    ],
    "doors": [
       {
-         "code": "00",
+         "code": "04",
          "xPosStart": 39,
          "xPosEnd": 61,
          "yPosStart": 34,
          "yPosEnd": 84
       },
       {
-         "code": "00",
+         "code": "22",
          "xPosStart": 39,
          "xPosEnd": 61,
          "yPosStart": 34,
          "yPosEnd": 84
       },
       {
-         "code": "00",
+         "code": "25",
          "xPosStart": 39,
          "xPosEnd": 61,
          "yPosStart": 34,
          "yPosEnd": 84
       },
       {
-         "code": "00",
+         "code": "30",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "37",
          "xPosStart": 39,
          "xPosEnd": 61,
          "yPosStart": 34,
