@@ -1,0 +1,39 @@
+{
+   "text": [
+      "…a bright room whose walls were in some disrepair. The floorboards creaked and groaned; the plaster made a gritty sound.",
+      "They studied the old frescoes for clues but missed the obvious signs.",
+      "“Are we on the right path?” they asked.",
+      "Keeping in mind what a relative term “right” is, I assured them they were, indeed, on the right path. As for the “correct” path or the “most appropriate” path…. Well, that might be something else.",
+      "Full of confidence now they marched out to…"
+   ],
+   "doors": [
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      }
+   ]
+}

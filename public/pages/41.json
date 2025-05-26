@@ -1,0 +1,37 @@
+{
+   "text": [
+      "…a room with a special piece of furniture I thought might appeal to my guests.",
+      "“How can we trust that thing?” one remarked. “Who knows where it ends up…”",
+      "I knew, naturally, but that wasn't the point. They were pretty sure of themselves, and went right on to…"
+   ],
+   "doors": [
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      }
+   ]
+}

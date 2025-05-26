@@ -1,0 +1,39 @@
+{
+   "text": [
+      "…a spacious room with a hole in the floor. A ladder led down into the shadows. Outside, leaves shook in the wind. They didn't like the look of that hole in the floor.",
+      "“Too dark down there!” they cried. “Who knows what's at the bottom.” They looked at me again.",
+      "“Probably a room of some kind,” I volunteered quickly. “But you know what I say about appearances.” It would have been a relief to get outside for a while.",
+      "They wanted to know if they had been here before…. How could I answer that?",
+      "“I have the strangest feeling of déjà vu,” said one who, bolder than the rest, led us into…"
+   ],
+   "doors": [
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      }
+   ]
+}

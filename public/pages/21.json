@@ -1,0 +1,38 @@
+{
+   "text": [
+      "…a yard containing shrubs trimmed in ornamental shapes.",
+      "“This,” I began, “is called…”",
+      "“We know what the name is,” they interrupted. “Why don't you just tell us which way to go?”",
+      "“I wasn't referring to the plants,” I said in a huff. I refused to say anything else, leaving them to find their own way to…"
+   ],
+   "doors": [
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      }
+   ]
+}

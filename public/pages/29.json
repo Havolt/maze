@@ -1,0 +1,41 @@
+{
+   "text": [
+      "…a much smaller room.",
+      "A person with a white staff turned to face us. His associate shrugged, not an easy thing to do in his position, and went back to what he had been doing.",
+      "“Look, look,” said the person with the staff. “This is very important…”",
+      "I snatched the paper from his hand and tore it to pieces.",
+      "“How will he find his way without directions?” the group wanted to know.",
+      "“Don’t worry,” said the man, “here blindness is no disadvantage.”",
+      "I hurried my visitors out as quickly as I could to…"
+   ],
+   "doors": [
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      }
+   ]
+}

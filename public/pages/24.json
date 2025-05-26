@@ -1,0 +1,40 @@
+{
+   "text": [
+      "…a place of unlimited darkness.",
+      "“Where are the doors?” they asked nervously. “We can't see any doors…”",
+      "“Be careful where you step!” said a cold voice. “This spot is taken.” Dozens of eyes blinked at us in the Stygian gloom.",
+      "By the time my uncertain visitors turned to ask me what to do I was already far away.",
+      "“There are no doors,” said the voice. “You are here with the rest of us now…”",
+      "Even my bellowing laughter couldn't fill this space."
+   ],
+   "doors": [
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      }
+   ]
+}

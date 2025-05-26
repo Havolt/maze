@@ -1,0 +1,40 @@
+{
+   "text": [
+      "…a room with a floor of sand.",
+      "“Amphorae,” I pronounced; empty, of course.",
+      "“This is an easier choice to make,” they said.",
+      "“You may think so,” I muttered to myself, “but your choices are more limited than you know.”",
+      "One should never accept the obvious here. If you think of the Maze as a machine, confusion is its product, and the machine was hard at work.",
+      "Ignoring my good advice they hurried into…"
+   ],
+   "doors": [
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      }
+   ]
+}

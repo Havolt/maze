@@ -1,0 +1,38 @@
+{
+   "text": [
+      "…a high room with the image of a crown on the wall for everyone to see now. Though one of my parents might be lowborn, the other was close to a king…. I've always felt at home here.",
+      "“Which door ought we take?” they wanted to know. I rather brusquely indicated the three doors.",
+      "“Any of these is fine for my purposes.”",
+      "They were disconcerted at the apparent lack of clues. “Perhaps in another room,” they said, leaving for…"
+   ],
+   "doors": [
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      }
+   ]
+}

@@ -1,0 +1,41 @@
+{
+   "text": [
+      "…the room at the center of the Maze.",
+      "My guests thought that whoever lived here was a careless person, to leave so many things around. They were wrong.",
+      "There was really only one thing for them to find: the Riddle of the Maze. They demanded that I show it to them.",
+      "“Do you think it is written on the wall for all to see? It is hidden here, somewhere, perhaps throughout the room. As far as you are concerned, what the Maze teaches can be learned in every room.”",
+      "They looked and looked…every group is the same.",
+      "“Now,” I said, after a last look around, “we must find our way back out.”",
+      "Leaving the center of the Maze we found ourselves in…"
+   ],
+   "doors": [
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      }
+   ]
+}

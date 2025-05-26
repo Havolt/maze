@@ -1,0 +1,37 @@
+{
+   "text": [
+      "…the room with no floor. They crowded each other on the narrow ledge. The bold one ventured out to the center.",
+      "Realizing that they could see all of the signs only from the center of the room, several wanted to turn back.",
+      "With exaggerated caution, considering their predicament, they finally reached the door they wanted and eventually found themselves in…"
+   ],
+   "doors": [
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      }
+   ]
+}

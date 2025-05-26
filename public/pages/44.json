@@ -1,0 +1,38 @@
+{
+   "text": [
+      "…a courtyard of palms and statues. The trees waved to each other in the breeze.",
+      "“Who left the door open?” they wanted to know.",
+      "“We came in that way,” I offered, but they were convinced we had entered by another door entirely.",
+      "They vanished through the wall and I followed them to…"
+   ],
+   "doors": [
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      }
+   ]
+}

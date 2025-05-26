@@ -1,0 +1,41 @@
+{
+   "text": [
+      "…one of the biggest rooms in the House. All three doorways were dark.",
+      "“Afraid to go out?” I asked.",
+      "Since they tried to think of themselves as adults, they didn't care for my question.",
+      "“Not really,” said the thoughtful one, “but that doesn't mean we have to go running around out there just to prove something to you.”",
+      "I knew she would bear watching.",
+      "“Choose then!” I cried, as if my feelings were hurt. “Pay no attention to anything I say.” I knew they couldn't afford not to listen to me entirely…they were so easily led.",
+      "Turning around, the group took a path that completely surprised me after all, and I followed them to…"
+   ],
+   "doors": [
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      }
+   ]
+}

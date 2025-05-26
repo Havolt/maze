@@ -1,0 +1,39 @@
+{
+   "text": [
+      "…a room that smelled of paint. Faint voices, apparently in an argument, came from behind the locked door.",
+      "“You know,” said one, “that sounds like us in there…”",
+      "They tried the door but, naturally, it wouldn’t open. The voices stopped when the doorknob rattled.",
+      "One picked up the umbrella. “It may rain where we’re going.”",
+      "I signaled my approval and, after a short rest, we came to…"
+   ],
+   "doors": [
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      }
+   ]
+}

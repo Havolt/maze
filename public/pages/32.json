@@ -1,0 +1,41 @@
+{
+   "text": [
+      "…a large square room with a hole rudely broken through one wall. It must have taken a great deal of strength to pull the heavy stones out of position.",
+      "The symmetry was also disturbed by the apparent loss of one of the room’s statues. My visitors thought a thief had broken into the room, removed the figure, and made away with it. This, of course, was one explanation.",
+      "“Another one!” they cried.",
+      "“You mean another representative of the animal kingdom?” I asked.",
+      "“What is a bird like that doing here?”",
+      "“Roosting, evidently.” Their attitude was really beginning to irritate me. I have come to think of all the inhabitants of this House as members of my little kingdom. People can be so arrogant…in a very real way we are all of us animals, at least in part.",
+      "I wouldn’t answer any more of their questions so we left this room to enter…"
+   ],
+   "doors": [
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      }
+   ]
+}

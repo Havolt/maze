@@ -1,0 +1,40 @@
+{
+   "text": [
+      "…a vaulted chamber lit by a single bulb.",
+      "Someone knocked a bowl off the table. The crash echoed from the ceiling and whispered away down the corridors. I broke another on purpose.",
+      "“Make sure to take that with you,” I said. “You can never tell when you might need it.”",
+      "“Take what?” they wanted to know.",
+      "“Isn't it obvious?”",
+      "Taking a vote among themselves they went on to…"
+   ],
+   "doors": [
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      }
+   ]
+}

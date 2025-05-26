@@ -1,0 +1,39 @@
+{
+   "text": [
+      "…room number 20. The ringing stopped as soon as we entered.",
+      "“What is the matter now?” I asked them.",
+      "“Too many animals for a proper house!”",
+      "They walked carefully around the edges of the room. I watched with an amusement shared, I think, by the wise old tortoise.",
+      "With backwards looks and muttered comments about turtles they left room number 20 and entered…"
+   ],
+   "doors": [
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      },
+      {
+         "code": "00",
+         "xPosStart": 39,
+         "xPosEnd": 61,
+         "yPosStart": 34,
+         "yPosEnd": 84
+      }
+   ]
+}
