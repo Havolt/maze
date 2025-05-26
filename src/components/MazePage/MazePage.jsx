@@ -4,7 +4,7 @@ import MazeDoor from '../MazeDoor/MazeDoor'
 
 import Styles from './MazePage.module.css'
 
-function MazePage({currentPageCode = '00'}) {
+function MazePage({currentPageCode = '00', onDoorClick}) {
 
    const [pageData, setPageData] = React.useState(null);
 
@@ -55,7 +55,7 @@ function MazePage({currentPageCode = '00'}) {
 
          {/* Doors */}
          {pageData.doors.map((door, index) => (
-            <MazeDoor key={index} door={door} />
+            <MazeDoor key={index} door={door} onDoorClick={onDoorClick} />
          ))}
       </div>
       

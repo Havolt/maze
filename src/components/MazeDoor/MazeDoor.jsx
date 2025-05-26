@@ -2,7 +2,7 @@ import React from 'react'
 
 import Styles from './MazeDoor.module.css'
 
-function MazeDoor({door}) {
+function MazeDoor({door, onDoorClick}) {
 
    console.log('MazeDoor', door);
 
@@ -15,10 +15,17 @@ function MazeDoor({door}) {
       height: door.yPosEnd - door.yPosStart + '%',
    };
 
+   const handleDoorClick = () => {
+      console.log('Door clicked:', door.code);
+      // Here you can add logic to handle the door click,
+      // such as navigating to a new page or opening a modal.
+      onDoorClick(door.code);
+   };
+
    console.log('Door style:', doorStyle);
 
   return (
-    <div className={Styles.door} style={doorStyle} />
+    <div className={Styles.door} style={doorStyle} onClick={handleDoorClick} />
   )
 }
 

@@ -9,11 +9,15 @@ function App() {
 
   const currentPageCode = currentPage.toString().padStart(2, '0');
 
+  const updateCurrentPage = (newPage) => {
+    setCurrentPage(newPage);
+  }
+
   console.log(currentPageCode);
 
   return (
     <>
-      <MazePage currentPageCode={currentPageCode} />
+      <MazePage currentPageCode={currentPageCode} onDoorClick={updateCurrentPage} />
     </>
   )
 }
