@@ -12,10 +12,10 @@
    "doors": [
       {
          "code": "01",
-         "xPosStart": 39,
+         "xPosStart": 37,
          "xPosEnd": 61,
-         "yPosStart": 34,
-         "yPosEnd": 84
+         "yPosStart": 35,
+         "yPosEnd": 88
       }
    ]
 }

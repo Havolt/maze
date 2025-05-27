@@ -1,5 +1,6 @@
 .door {
    position: absolute;
+   background-color: #add8e68e;
 }
 
 .door:hover {

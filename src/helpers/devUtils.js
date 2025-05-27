@@ -34,7 +34,16 @@ export const getLocation = (ev) => {
             } else {
                window.coords.xPosEnd = percentageX.toFixed(0);
                window.coords.yPosEnd = percentageY.toFixed(0);
-               console.log(`"xPosStart": ${window.coords.xPosStart}, "xPosEnd": ${window.coords.xPosEnd}, "yPosStart": ${window.coords.yPosStart}, "yPosEnd": ${window.coords.yPosEnd}`);
+               const data = `"xPosStart": ${window.coords.xPosStart}, "xPosEnd": ${window.coords.xPosEnd}, "yPosStart": ${window.coords.yPosStart}, "yPosEnd": ${window.coords.yPosEnd}`;
+               
+               // copy to clipboard
+               navigator.clipboard.writeText(data)
+                  .then(() => {
+                     console.log('Coordinates copied to clipboard:', data);
+                  })
+                  .catch(err => {
+                     console.error('Failed to copy coordinates:', err);
+                  });
                window.coords = {
                   xPosStart: 0,
                   xPosEnd: 0,

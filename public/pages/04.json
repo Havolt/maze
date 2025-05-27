@@ -9,68 +9,68 @@
    "doors": [
       {
          "code": "11",
-         "xPosStart": 39,
-         "xPosEnd": 61,
-         "yPosStart": 34,
-         "yPosEnd": 84
+         "xPosStart": 46,
+         "xPosEnd": 54,
+         "yPosStart": 31,
+         "yPosEnd": 56
       },
       {
          "code": "15",
-         "xPosStart": 39,
-         "xPosEnd": 61,
-         "yPosStart": 34,
-         "yPosEnd": 84
+         "xPosStart": 35,
+         "xPosEnd": 38,
+         "yPosStart": 33,
+         "yPosEnd": 61
       },
       {
          "code": "16",
-         "xPosStart": 39,
-         "xPosEnd": 61,
-         "yPosStart": 34,
-         "yPosEnd": 84
+         "xPosStart": 63,
+         "xPosEnd": 65,
+         "yPosStart": 33,
+         "yPosEnd": 63
       },
       {
          "code": "24",
-         "xPosStart": 39,
-         "xPosEnd": 61,
-         "yPosStart": 34,
-         "yPosEnd": 84
+         "xPosStart": 69,
+         "xPosEnd": 75,
+         "yPosStart": 33,
+         "yPosEnd": 73
       },
       {
          "code": "29",
-         "xPosStart": 39,
-         "xPosEnd": 61,
-         "yPosStart": 34,
-         "yPosEnd": 84
+         "xPosStart": 25,
+         "xPosEnd": 32,
+         "yPosStart": 32,
+         "yPosEnd": 67
       },
       {
          "code": "39",
          "trick": true,
-         "xPosStart": 39,
-         "xPosEnd": 61,
-         "yPosStart": 34,
-         "yPosEnd": 84
+         "xPosStart": 0,
+         "xPosEnd": 0,
+         "yPosStart": 0,
+         "yPosEnd": 0
       },
       {
          "code": "42",
          "trick": true,
-         "xPosStart": 39,
-         "xPosEnd": 61,
-         "yPosStart": 34,
-         "yPosEnd": 84
+         "xPosStart": 0,
+         "xPosEnd": 0,
+         "yPosStart": 0,
+         "yPosEnd": 0
       },
       {
          "code": "43",
-         "xPosStart": 39,
-         "xPosEnd": 61,
+         "xPosStart": 83,
+         "xPosEnd": 96,
          "yPosStart": 34,
-         "yPosEnd": 84
+         "yPosEnd": 91
       },
       {
          "code": "44",
-         "xPosStart": 39,
-         "xPosEnd": 61,
-         "yPosStart": 34,
-         "yPosEnd": 84
+         "xPosStart": 5,
+         "xPosEnd": 18,
+         "yPosStart": 32,
+         "yPosEnd": 80
       }
    ]
 }
