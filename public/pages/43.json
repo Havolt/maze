@@ -9,30 +9,48 @@
       {
          "code": "04",
          "trick": true,
-        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
+         "xPosStart": 0,
+         "xPosEnd": 0,
+         "yPosStart": 0,
+         "yPosEnd": 0
       },
       {
          "code": "05",
          "trick": true,
-        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
+         "xPosStart": 0,
+         "xPosEnd": 0,
+         "yPosStart": 0,
+         "yPosEnd": 0
       },
       {
          "code": "14",
          "trick": true,
-        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
+         "xPosStart": 0,
+         "xPosEnd": 0,
+         "yPosStart": 0,
+         "yPosEnd": 0
       },
       {
          "code": "22",
-        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
+         "xPosStart": 43,
+         "xPosEnd": 57,
+         "yPosStart": 28,
+         "yPosEnd": 55
       },
       {
          "code": "28",
          "trick": true,
-        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
+         "xPosStart": 0,
+         "xPosEnd": 0,
+         "yPosStart": 0,
+         "yPosEnd": 0
       },
       {
          "code": "38",
-        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
+         "xPosStart": 40,
+         "xPosEnd": 61,
+         "yPosStart": 70,
+         "yPosEnd": 88
       }
    ]
 }

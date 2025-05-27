@@ -21,8 +21,7 @@
       },
       {
          "code": "24",
-        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
-      },
+"xPosStart": 75, "xPosEnd": 87, "yPosStart": 33, "yPosEnd": 65      },
       {
          "code": "32",
          "trick": true,
@@ -36,7 +35,6 @@
       {
          "code": "40",
          "trick": true,
-        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
-      }
+"xPosStart": 13, "xPosEnd": 25, "yPosStart": 33, "yPosEnd": 66      }
    ]
 }

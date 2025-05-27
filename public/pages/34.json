@@ -8,16 +8,25 @@
    "doors": [
       {
          "code": "10",
-        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
+         "xPosStart": 3,
+         "xPosEnd": 14,
+         "yPosStart": 24,
+         "yPosEnd": 73
       },
       {
          "code": "25",
-        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
+         "xPosStart": 27,
+         "xPosEnd": 40,
+         "yPosStart": 21,
+         "yPosEnd": 63
       },
       {
          "code": "30",
          "trick": true,
-        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
+         "xPosStart": 0,
+         "xPosEnd": 0,
+         "yPosStart": 0,
+         "yPosEnd": 0
       }
    ]
 }

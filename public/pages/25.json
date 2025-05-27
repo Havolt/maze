@@ -8,20 +8,32 @@
    "doors": [
       {
          "code": "13",
-        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
+         "xPosStart": 30,
+         "xPosEnd": 45,
+         "yPosStart": 42,
+         "yPosEnd": 77
       },
       {
          "code": "34",
-        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
+         "xPosStart": 5,
+         "xPosEnd": 20,
+         "yPosStart": 41,
+         "yPosEnd": 77
       },
       {
          "code": "35",
-        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
+         "xPosStart": 81,
+         "xPosEnd": 94,
+         "yPosStart": 42,
+         "yPosEnd": 78
       },
       {
          "code": "42",
          "trick": true,
-        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
+         "xPosStart": 0,
+         "xPosEnd": 0,
+         "yPosStart": 0,
+         "yPosEnd": 0
       }
    ]
 }
