@@ -9,24 +9,24 @@
       {
          "code": "01",
          "trick": true,
-         "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 84
+        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
       },
       {
          "code": "12",
          "trick": true,
-         "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 84
+        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
       },
       {
          "code": "24",
-         "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 84
+        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
       },
       {
          "code": "31",
-         "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 84
+        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
       },
       {
          "code": "44",
-         "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 84
+        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
       }
    ]
 }

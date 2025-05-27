@@ -13,19 +13,19 @@
       {
          "code": "04",
          "trick": true,
-         "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 84
+        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
       },
       {
          "code": "07",
-         "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 84
+        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
       },
       {
          "code": "32",
-         "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 84
+        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
       },
       {
          "code": "36",
-         "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 84
+        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
       }
    ]
 }

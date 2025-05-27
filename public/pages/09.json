@@ -8,16 +8,16 @@
    "doors": [
       {
          "code": "03",
-         "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 84
+        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
       },
       {
          "code": "18",
-         "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 84
+        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
       },
       {
          "code": "27",
          "trick": true,
-         "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 84
+        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
       }
    ]
 }

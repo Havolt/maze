@@ -5,7 +5,7 @@ import MazePage from './components/MazePage/MazePage'
 
 function App() {
 
-  const [currentPage, setCurrentPage] = useState(5);
+  const [currentPage, setCurrentPage] = useState(6);
 
   const currentPageCode = currentPage.toString().padStart(2, '0');
 
