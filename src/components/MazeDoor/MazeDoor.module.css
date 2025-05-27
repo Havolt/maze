@@ -1,9 +1,12 @@
 .door {
    position: absolute;
-   background-color: #add8e68e;
+   /* background-color: #add8e68e; */
+   opacity: 0;
 }
 
 .door:hover {
-   background-color: #add8e68e;
+   background-color: #c1d7df8e;
    cursor: pointer;
+   opacity: 1;
+   transition: opacity 0.2s ease-in-out;
 }
