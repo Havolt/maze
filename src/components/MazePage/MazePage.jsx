@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 
 import MazeDoor from '../MazeDoor/MazeDoor'
 
@@ -6,9 +6,10 @@ import Styles from './MazePage.module.css'
 
 import { getLocation } from '../../helpers/devUtils';
 
-function MazePage({currentPageCode = '00', onDoorClick}) {
+function MazePage({currentPageCode = '00', onDoorClick, showText = true}) {
 
-   const [pageData, setPageData] = React.useState(null);
+   const [pageData, setPageData] = useState(null);
+   
 
    const myRef = useRef(null);
 
@@ -39,17 +40,19 @@ function MazePage({currentPageCode = '00', onDoorClick}) {
    if(!pageData) {
       return <div>Loading...</div>;
    }
-  
-  
-   return (
-    <div className={Styles.mazePage}>
-      <div>
+
+   const PageText = () => (<div>
          {pageData.text.map((item, index) => (
             <p key={index} className={Styles.pageContent}>
                {item}
             </p>
          ))}
-      </div>
+      </div>)
+  
+  
+   return (
+    <div className={Styles.mazePage}>
+      { showText && <PageText /> }
       <div className={Styles.mazeImage} onClick={getLocation} ref={myRef}>
          {/* Image */}
          <picture>

@@ -6,6 +6,7 @@ import MazePage from './components/MazePage/MazePage'
 function App() {
 
   const [currentPage, setCurrentPage] = useState(0);
+  const [showText, setShowText] = useState(true);
 
   const currentPageCode = currentPage.toString().padStart(2, '0');
 
@@ -17,7 +18,12 @@ function App() {
 
   return (
     <>
-      <MazePage currentPageCode={currentPageCode} onDoorClick={updateCurrentPage} />
+      <button onClick={() => setShowText(!showText)}>Toggle text</button>
+      <MazePage 
+        currentPageCode={currentPageCode} 
+        onDoorClick={updateCurrentPage} 
+        showText={showText}
+      />
     </>
   )
 }
