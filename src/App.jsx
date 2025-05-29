@@ -17,14 +17,14 @@ function App() {
   console.log(currentPageCode);
 
   return (
-    <>
-      <button onClick={() => setShowText(!showText)}>Toggle text</button>
+    <main class="app">
       <MazePage 
         currentPageCode={currentPageCode} 
         onDoorClick={updateCurrentPage} 
         showText={showText}
       />
-    </>
+      <button onClick={() => setShowText(!showText)}>Toggle text</button>
+    </main>
   )
 }
 
