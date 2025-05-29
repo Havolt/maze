@@ -25,4 +25,8 @@
    height: 100%;
    padding: 0.4rem;
    font-size: 1.4rem;
+
+   p {
+      margin: 0.7rem 0;
+   }
 }

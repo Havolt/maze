@@ -33,10 +33,11 @@
       },
       {
          "code": "17",
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
+         "hidden": true,
+         "xPosStart": 42,
+         "xPosEnd": 58,
+         "yPosStart": 55,
+         "yPosEnd": 68
       },
       {
          "code": "35",

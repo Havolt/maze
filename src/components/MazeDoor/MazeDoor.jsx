@@ -24,8 +24,9 @@ function MazeDoor({door, onDoorClick}) {
 
    console.log('Door style:', doorStyle);
 
+
   return (
-    <div className={Styles.door} style={doorStyle} onClick={handleDoorClick} />
+    <div className={`${Styles.door} ${ door.hidden && Styles.doorHidden }`} style={doorStyle} onClick={handleDoorClick} />
   )
 }
 
