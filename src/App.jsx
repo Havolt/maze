@@ -8,7 +8,7 @@ const MAX_PAGE = 45;
 
 function App() {
 
-  const [currentPage, setCurrentPage] = useState(29);
+  const [currentPage, setCurrentPage] = useState(0);
   const [showText, setShowText] = useState(true);
   const [pagesVisited, setPagesVisited] = useState([]);
 

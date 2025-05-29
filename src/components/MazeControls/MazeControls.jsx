@@ -6,7 +6,7 @@ function MazeControls({onToggleShowText, pagesVisitedAmount}) {
   return (
     <div className={Styles.mazeControls}>
       <button onClick={onToggleShowText}>Toggle text</button>
-      <span>{pagesVisitedAmount}</span>
+      <span className={Styles.stepCounter}>Steps: {pagesVisitedAmount}</span>
     </div>
   )
 }
