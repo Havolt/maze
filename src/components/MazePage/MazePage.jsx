@@ -41,7 +41,7 @@ function MazePage({currentPageCode = '00', onDoorClick, showText = true}) {
       return <div>Loading...</div>;
    }
 
-   const PageText = () => (<div>
+   const PageText = () => (<div className={Styles.pageText}>
          {pageData.text.map((item, index) => (
             <p key={index} className={Styles.pageContent}>
                {item}

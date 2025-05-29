@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 import MazePage from './components/MazePage/MazePage'
+import MazeControls from './components/MazeControls/MazeControls'
 
 function App() {
 
@@ -14,6 +15,10 @@ function App() {
     setCurrentPage(newPage);
   }
 
+  const toggleShowText = () => {
+    setShowText(!showText);
+  }
+
   console.log(currentPageCode);
 
   return (
@@ -23,7 +28,8 @@ function App() {
         onDoorClick={updateCurrentPage} 
         showText={showText}
       />
-      <button onClick={() => setShowText(!showText)}>Toggle text</button>
+      <MazeControls onToggleShowText={toggleShowText} />
+      
     </main>
   )
 }
