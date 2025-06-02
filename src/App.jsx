@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 import MazePage from './components/MazePage/MazePage'
+import MazeInstructions from './components/MazeInstructions/MazeInstructions'
 import MazeControls from './components/MazeControls/MazeControls'
 
 const MAX_PAGE = 45;
@@ -10,6 +11,7 @@ function App() {
 
   const [currentPage, setCurrentPage] = useState(0);
   const [showText, setShowText] = useState(true);
+  const [showInstructions, setShowInstructions] = useState(false);
   const [pagesVisited, setPagesVisited] = useState([]);
 
   const currentPageCode = currentPage.toString().padStart(2, '0');
@@ -29,6 +31,10 @@ function App() {
     setShowText(!showText);
   }
 
+  const toggleShowInstructions = () => {
+    setShowInstructions(!showInstructions);
+  }
+
   const pagesVisitedAmount = pagesVisited.length; // +1 for the current page
 
   console.log(currentPageCode);
@@ -40,7 +46,13 @@ function App() {
         onDoorClick={updateCurrentPage} 
         showText={showText}
       />
-      <MazeControls onToggleShowText={toggleShowText} pagesVisitedAmount={pagesVisitedAmount} />
+      { showInstructions && <MazeInstructions /> }
+      <MazeControls 
+        onToggleShowText={toggleShowText}
+        onToggleShowInstructions={toggleShowInstructions}
+        pagesVisitedAmount={pagesVisitedAmount} 
+      />
+      
       
     </main>
   )
