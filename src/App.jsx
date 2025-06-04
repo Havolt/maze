@@ -43,7 +43,7 @@ function App() {
     <main className="app">
       <MazePage 
         currentPageCode={currentPageCode} 
-        onDoorClick={updateCurrentPage} 
+        onDoorClick={updateCurrentPage} h
         showText={showText}
       />
       { showInstructions && <MazeInstructions /> }
