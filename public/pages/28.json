@@ -1,39 +1,39 @@
 {
-   "text": [
-      "…a spacious room with a hole in the floor. A ladder led down into the shadows. Outside, leaves shook in the wind. They didn't like the look of that hole in the floor.",
-      "“Too dark down there!” they cried. “Who knows what's at the bottom.” They looked at me again.",
-      "“Probably a room of some kind,” I volunteered quickly. “But you know what I say about appearances.” It would have been a relief to get outside for a while.",
-      "They wanted to know if they had been here before…. How could I answer that?",
-      "“I have the strangest feeling of déjà vu,” said one who, bolder than the rest, led us into…"
-   ],
-   "doors": [
-      {
-         "code": "23",
-         "xPosStart": 11,
-         "xPosEnd": 15,
-         "yPosStart": 30,
-         "yPosEnd": 74
-      },
-      {
-         "code": "32",
-         "xPosStart": 42,
-         "xPosEnd": 59,
-         "yPosStart": 72,
-         "yPosEnd": 85
-      },
-      {
-         "code": "43",
-         "xPosStart": 43,
-         "xPosEnd": 57,
-         "yPosStart": 26,
-         "yPosEnd": 60
-      },
-      {
-         "code": "45",
-         "xPosStart": 85,
-         "xPosEnd": 89,
-         "yPosStart": 28,
-         "yPosEnd": 74
-      }
-   ]
+  "text": [
+    "…a spacious room with a hole in the floor. A ladder led down into the shadows. Outside, leaves shook in the wind. They didn't like the look of that hole in the floor.",
+    "“Too dark down there!” they cried. “Who knows what's at the bottom.” They looked at me again.",
+    "“Probably a room of some kind,” I volunteered quickly. “But you know what I say about appearances.” It would have been a relief to get outside for a while.",
+    "They wanted to know if they had been here before…. How could I answer that?",
+    "“I have the strangest feeling of déjà vu,” said one who, bolder than the rest, led us into…"
+  ],
+  "doors": [
+    {
+      "code": "23",
+      "xPosStart": 11,
+      "xPosEnd": 15,
+      "yPosStart": 30,
+      "yPosEnd": 74
+    },
+    {
+      "code": "32",
+      "xPosStart": 42,
+      "xPosEnd": 59,
+      "yPosStart": 72,
+      "yPosEnd": 85
+    },
+    {
+      "code": "43",
+      "xPosStart": 43,
+      "xPosEnd": 57,
+      "yPosStart": 26,
+      "yPosEnd": 60
+    },
+    {
+      "code": "45",
+      "xPosStart": 85,
+      "xPosEnd": 89,
+      "yPosStart": 28,
+      "yPosEnd": 74
+    }
+  ]
 }

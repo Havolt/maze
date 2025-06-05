@@ -1,56 +1,56 @@
 {
-   "text": [
-      "…a great hall, dominated by the entrance to room 22. The face over the door had a sly look.",
-      "“Is it good or bad to have only two choices?” they wanted to know.",
-      "It was, predictably enough, neither “good” nor “bad.” These people just didn't know how to phrase a meaningful question. You have to be very particular in this House.",
-      "We went on to…"
-   ],
-   "doors": [
-      {
-         "code": "04",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "05",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "14",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "22",
-         "xPosStart": 43,
-         "xPosEnd": 57,
-         "yPosStart": 28,
-         "yPosEnd": 55
-      },
-      {
-         "code": "28",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "38",
-         "xPosStart": 40,
-         "xPosEnd": 61,
-         "yPosStart": 70,
-         "yPosEnd": 88
-      }
-   ]
+  "text": [
+    "…a great hall, dominated by the entrance to room 22. The face over the door had a sly look.",
+    "“Is it good or bad to have only two choices?” they wanted to know.",
+    "It was, predictably enough, neither “good” nor “bad.” These people just didn't know how to phrase a meaningful question. You have to be very particular in this House.",
+    "We went on to…"
+  ],
+  "doors": [
+    {
+      "code": "04",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "05",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "14",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "22",
+      "xPosStart": 43,
+      "xPosEnd": 57,
+      "yPosStart": 28,
+      "yPosEnd": 55
+    },
+    {
+      "code": "28",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "38",
+      "xPosStart": 40,
+      "xPosEnd": 61,
+      "yPosStart": 70,
+      "yPosEnd": 88
+    }
+  ]
 }

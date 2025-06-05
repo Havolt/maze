@@ -1,39 +1,39 @@
 {
-   "text": [
-      "…a high room with the image of a crown on the wall for everyone to see now. Though one of my parents might be lowborn, the other was close to a king…. I've always felt at home here.",
-      "“Which door ought we take?” they wanted to know. I rather brusquely indicated the three doors.",
-      "“Any of these is fine for my purposes.”",
-      "They were disconcerted at the apparent lack of clues. “Perhaps in another room,” they said, leaving for…"
-   ],
-   "doors": [
-      {
-         "code": "13",
-         "xPosStart": 30,
-         "xPosEnd": 45,
-         "yPosStart": 42,
-         "yPosEnd": 77
-      },
-      {
-         "code": "34",
-         "xPosStart": 5,
-         "xPosEnd": 20,
-         "yPosStart": 41,
-         "yPosEnd": 77
-      },
-      {
-         "code": "35",
-         "xPosStart": 81,
-         "xPosEnd": 94,
-         "yPosStart": 42,
-         "yPosEnd": 78
-      },
-      {
-         "code": "42",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      }
-   ]
+  "text": [
+    "…a high room with the image of a crown on the wall for everyone to see now. Though one of my parents might be lowborn, the other was close to a king…. I've always felt at home here.",
+    "“Which door ought we take?” they wanted to know. I rather brusquely indicated the three doors.",
+    "“Any of these is fine for my purposes.”",
+    "They were disconcerted at the apparent lack of clues. “Perhaps in another room,” they said, leaving for…"
+  ],
+  "doors": [
+    {
+      "code": "13",
+      "xPosStart": 30,
+      "xPosEnd": 45,
+      "yPosStart": 42,
+      "yPosEnd": 77
+    },
+    {
+      "code": "34",
+      "xPosStart": 5,
+      "xPosEnd": 20,
+      "yPosStart": 41,
+      "yPosEnd": 77
+    },
+    {
+      "code": "35",
+      "xPosStart": 81,
+      "xPosEnd": 94,
+      "yPosStart": 42,
+      "yPosEnd": 78
+    },
+    {
+      "code": "42",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    }
+  ]
 }

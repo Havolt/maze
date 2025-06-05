@@ -1,41 +1,41 @@
 {
-   "text": [
-      "…a melancholy little courtyard surrounded by a brick wall too high to see over. A dead tree lifted its bone-white branches to a sky filling with gray clouds.",
-      "“Those doors look very strange,” they said.",
-      "“You should say, ‘They look very strangely,’” I corrected.",
-      "“They seem to be watching us…”",
-      "A sudden gust of wind made the branches clatter against each other like old boards. Dead leaves began to gather at our feet.",
-      "Shivering in the wind we managed to push open one of the heavy doors and make our way to…"
-   ],
-   "doors": [
-      {
-         "code": "08",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "19",
-         "xPosStart": 35,
-         "xPosEnd": 42,
-         "yPosStart": 44,
-         "yPosEnd": 71
-      },
-      {
-         "code": "21",
-         "xPosStart": 83,
-         "xPosEnd": 91,
-         "yPosStart": 43,
-         "yPosEnd": 80
-      },
-      {
-         "code": "44",
-         "xPosStart": 8,
-         "xPosEnd": 17,
-         "yPosStart": 42,
-         "yPosEnd": 78
-      }
-   ]
+  "text": [
+    "…a melancholy little courtyard surrounded by a brick wall too high to see over. A dead tree lifted its bone-white branches to a sky filling with gray clouds.",
+    "“Those doors look very strange,” they said.",
+    "“You should say, ‘They look very strangely,’” I corrected.",
+    "“They seem to be watching us…”",
+    "A sudden gust of wind made the branches clatter against each other like old boards. Dead leaves began to gather at our feet.",
+    "Shivering in the wind we managed to push open one of the heavy doors and make our way to…"
+  ],
+  "doors": [
+    {
+      "code": "08",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "19",
+      "xPosStart": 35,
+      "xPosEnd": 42,
+      "yPosStart": 44,
+      "yPosEnd": 71
+    },
+    {
+      "code": "21",
+      "xPosStart": 83,
+      "xPosEnd": 91,
+      "yPosStart": 43,
+      "yPosEnd": 80
+    },
+    {
+      "code": "44",
+      "xPosStart": 8,
+      "xPosEnd": 17,
+      "yPosStart": 42,
+      "yPosEnd": 78
+    }
+  ]
 }

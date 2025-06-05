@@ -1,41 +1,41 @@
 {
-   "text": [
-      "…a shaded portico. A late afternoon sun warmed the rough blocks of stone.",
-      "“Get out of the way!” someone called. We moved into the yard, squinting at the strong light.",
-      "One of them sat on a marble bench after I politely pushed some flowers aside. “Did you pick these for me?” she asked, looking me in the eye. I had to tell her the truth.",
-      "In another part of the grounds someone was singing, but they couldn’t make out the words.",
-      "Like children they soon became restless and impatient to see something new, so we went on to…"
-   ],
-   "doors": [
-      {
-         "code": "11",
-         "xPosStart": 42,
-         "xPosEnd": 48,
-         "yPosStart": 24,
-         "yPosEnd": 65
-      },
-      {
-         "code": "23",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "31",
-         "xPosStart": 22,
-         "xPosEnd": 32,
-         "yPosStart": 22,
-         "yPosEnd": 73
-      },
-      {
-         "code": "45",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      }
-   ]
+  "text": [
+    "…a shaded portico. A late afternoon sun warmed the rough blocks of stone.",
+    "“Get out of the way!” someone called. We moved into the yard, squinting at the strong light.",
+    "One of them sat on a marble bench after I politely pushed some flowers aside. “Did you pick these for me?” she asked, looking me in the eye. I had to tell her the truth.",
+    "In another part of the grounds someone was singing, but they couldn’t make out the words.",
+    "Like children they soon became restless and impatient to see something new, so we went on to…"
+  ],
+  "doors": [
+    {
+      "code": "11",
+      "xPosStart": 42,
+      "xPosEnd": 48,
+      "yPosStart": 24,
+      "yPosEnd": 65
+    },
+    {
+      "code": "23",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "31",
+      "xPosStart": 22,
+      "xPosEnd": 32,
+      "yPosStart": 22,
+      "yPosEnd": 73
+    },
+    {
+      "code": "45",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    }
+  ]
 }

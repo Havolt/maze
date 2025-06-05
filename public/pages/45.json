@@ -1,48 +1,48 @@
 {
-   "text": [
-      "…the room at the center of the Maze.",
-      "My guests thought that whoever lived here was a careless person, to leave so many things around. They were wrong.",
-      "There was really only one thing for them to find: the Riddle of the Maze. They demanded that I show it to them.",
-      "“Do you think it is written on the wall for all to see? It is hidden here, somewhere, perhaps throughout the room. As far as you are concerned, what the Maze teaches can be learned in every room.”",
-      "They looked and looked…every group is the same.",
-      "“Now,” I said, after a last look around, “we must find our way back out.”",
-      "Leaving the center of the Maze we found ourselves in…"
-   ],
-   "doors": [
-      {
-         "code": "17",
-         "xPosStart": 19,
-         "xPosEnd": 23,
-         "yPosStart": 23,
-         "yPosEnd": 58
-      },
-      {
-         "code": "19",
-         "xPosStart": 77,
-         "xPosEnd": 82,
-         "yPosStart": 22,
-         "yPosEnd": 62
-      },
-      {
-         "code": "23",
-         "xPosStart": 90,
-         "xPosEnd": 96,
-         "yPosStart": 27,
-         "yPosEnd": 79
-      },
-      {
-         "code": "28",
-         "xPosStart": 3,
-         "xPosEnd": 9,
-         "yPosStart": 28,
-         "yPosEnd": 74
-      },
-      {
-         "code": "36",
-         "xPosStart": 44,
-         "xPosEnd": 56,
-         "yPosStart": 21,
-         "yPosEnd": 57
-      }
-   ]
+  "text": [
+    "…the room at the center of the Maze.",
+    "My guests thought that whoever lived here was a careless person, to leave so many things around. They were wrong.",
+    "There was really only one thing for them to find: the Riddle of the Maze. They demanded that I show it to them.",
+    "“Do you think it is written on the wall for all to see? It is hidden here, somewhere, perhaps throughout the room. As far as you are concerned, what the Maze teaches can be learned in every room.”",
+    "They looked and looked…every group is the same.",
+    "“Now,” I said, after a last look around, “we must find our way back out.”",
+    "Leaving the center of the Maze we found ourselves in…"
+  ],
+  "doors": [
+    {
+      "code": "17",
+      "xPosStart": 19,
+      "xPosEnd": 23,
+      "yPosStart": 23,
+      "yPosEnd": 58
+    },
+    {
+      "code": "19",
+      "xPosStart": 77,
+      "xPosEnd": 82,
+      "yPosStart": 22,
+      "yPosEnd": 62
+    },
+    {
+      "code": "23",
+      "xPosStart": 90,
+      "xPosEnd": 96,
+      "yPosStart": 27,
+      "yPosEnd": 79
+    },
+    {
+      "code": "28",
+      "xPosStart": 3,
+      "xPosEnd": 9,
+      "yPosStart": 28,
+      "yPosEnd": 74
+    },
+    {
+      "code": "36",
+      "xPosStart": 44,
+      "xPosEnd": 56,
+      "yPosStart": 21,
+      "yPosEnd": 57
+    }
+  ]
 }

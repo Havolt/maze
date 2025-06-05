@@ -1,32 +1,32 @@
 {
-   "text": [
-      "…a bright room whose walls were in some disrepair. The floorboards creaked and groaned; the plaster made a gritty sound.",
-      "They studied the old frescoes for clues but missed the obvious signs.",
-      "“Are we on the right path?” they asked.",
-      "Keeping in mind what a relative term “right” is, I assured them they were, indeed, on the right path. As for the “correct” path or the “most appropriate” path…. Well, that might be something else.",
-      "Full of confidence now they marched out to…"
-   ],
-   "doors": [
-      {
-         "code": "29",
-         "xPosStart": 9,
-         "xPosEnd": 14,
-         "yPosStart": 29,
-         "yPosEnd": 72
-      },
-      {
-         "code": "22",
-         "xPosStart": 41,
-         "xPosEnd": 59,
-         "yPosStart": 26,
-         "yPosEnd": 61
-      },
-      {
-         "code": "12",
-         "xPosStart": 87,
-         "xPosEnd": 92,
-         "yPosStart": 28,
-         "yPosEnd": 77
-      }
-   ]
+  "text": [
+    "…a bright room whose walls were in some disrepair. The floorboards creaked and groaned; the plaster made a gritty sound.",
+    "They studied the old frescoes for clues but missed the obvious signs.",
+    "“Are we on the right path?” they asked.",
+    "Keeping in mind what a relative term “right” is, I assured them they were, indeed, on the right path. As for the “correct” path or the “most appropriate” path…. Well, that might be something else.",
+    "Full of confidence now they marched out to…"
+  ],
+  "doors": [
+    {
+      "code": "29",
+      "xPosStart": 9,
+      "xPosEnd": 14,
+      "yPosStart": 29,
+      "yPosEnd": 72
+    },
+    {
+      "code": "22",
+      "xPosStart": 41,
+      "xPosEnd": 59,
+      "yPosStart": 26,
+      "yPosEnd": 61
+    },
+    {
+      "code": "12",
+      "xPosStart": 87,
+      "xPosEnd": 92,
+      "yPosStart": 28,
+      "yPosEnd": 77
+    }
+  ]
 }

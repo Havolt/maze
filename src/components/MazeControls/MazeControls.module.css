@@ -1,12 +1,12 @@
 .mazeControls {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   border-left: 3px solid #777979;
-   padding: .4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 3px solid #777979;
+  padding: 0.4rem;
 }
 
 .stepCounter {
-   font-size: 1.4rem;
-   font-weight: bold;
+  font-size: 1.4rem;
+  font-weight: bold;
 }

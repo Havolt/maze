@@ -1,40 +1,40 @@
 {
-   "text": [
-      "…a courtyard of palms and statues. The trees waved to each other in the breeze.",
-      "“Who left the door open?” they wanted to know.",
-      "“We came in that way,” I offered, but they were convinced we had entered by another door entirely.",
-      "They vanished through the wall and I followed them to…"
-   ],
-   "doors": [
-      {
-         "code": "04",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "18",
-         "xPosStart": 80,
-         "xPosEnd": 90,
-         "yPosStart": 35,
-         "yPosEnd": 64
-      },
-      {
-         "code": "21",
-         "xPosStart": 31,
-         "xPosEnd": 43,
-         "yPosStart": 35,
-         "yPosEnd": 65
-      },
-      {
-         "code": "31",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      }
-   ]
+  "text": [
+    "…a courtyard of palms and statues. The trees waved to each other in the breeze.",
+    "“Who left the door open?” they wanted to know.",
+    "“We came in that way,” I offered, but they were convinced we had entered by another door entirely.",
+    "They vanished through the wall and I followed them to…"
+  ],
+  "doors": [
+    {
+      "code": "04",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "18",
+      "xPosStart": 80,
+      "xPosEnd": 90,
+      "yPosStart": 35,
+      "yPosEnd": 64
+    },
+    {
+      "code": "21",
+      "xPosStart": 31,
+      "xPosEnd": 43,
+      "yPosStart": 35,
+      "yPosEnd": 65
+    },
+    {
+      "code": "31",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    }
+  ]
 }

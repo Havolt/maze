@@ -1,44 +1,44 @@
 {
-   "text": [
-      "…a narrow space where one wall boasted half-finished carvings and another some sort of carnival poster. There was a little confusion as we made our entrance but we soon sorted ourselves out.",
-      "It was impossible to climb up the slippery slide and another door wouldn’t open for us, so after emptying the pebbles from our shoes, we marched on to…"
-   ],
-   "doors": [
-      {
-         "code": "22",
-         "xPosStart": 75,
-         "xPosEnd": 81,
-         "yPosStart": 25,
-         "yPosEnd": 70
-      },
-      {
-         "code": "26",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "40",
-         "xPosStart": 50,
-         "xPosEnd": 61,
-         "yPosStart": 30,
-         "yPosEnd": 58
-      },
-      {
-         "code": "41",
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "43",
-         "xPosStart": 90,
-         "xPosEnd": 98,
-         "yPosStart": 24,
-         "yPosEnd": 83
-      }
-   ]
+  "text": [
+    "…a narrow space where one wall boasted half-finished carvings and another some sort of carnival poster. There was a little confusion as we made our entrance but we soon sorted ourselves out.",
+    "It was impossible to climb up the slippery slide and another door wouldn’t open for us, so after emptying the pebbles from our shoes, we marched on to…"
+  ],
+  "doors": [
+    {
+      "code": "22",
+      "xPosStart": 75,
+      "xPosEnd": 81,
+      "yPosStart": 25,
+      "yPosEnd": 70
+    },
+    {
+      "code": "26",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "40",
+      "xPosStart": 50,
+      "xPosEnd": 61,
+      "yPosStart": 30,
+      "yPosEnd": 58
+    },
+    {
+      "code": "41",
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "43",
+      "xPosStart": 90,
+      "xPosEnd": 98,
+      "yPosStart": 24,
+      "yPosEnd": 83
+    }
+  ]
 }

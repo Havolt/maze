@@ -1,41 +1,41 @@
 {
-   "text": [
-      "…an old and ruinous part of the House. Turning a corner the music we had been hearing became louder and at last we saw the musicians themselves.",
-      "They were so involved they failed to hear us. The music was suited to the scene - a moody, romantic melody. We stopped to listen and I admit that I, too, was affected by the sound as well as by the spectacle of the masked players.",
-      "One of the visitors noticed me listening. “Beautiful music, don't you think?”",
-      "“It's not bad,” I said stiffly. “The viol brings the right sense of warmth to the piece, but the guitarist is overplaying his part. Still, he adds a certain plangent brio to an otherwise introspective composition…”",
-      "Unwilling to interrupt the concert we slipped past the musicians into the door to…"
-   ],
-   "doors": [
-      {
-         "code": "07",
-         "xPosStart": 5,
-         "xPosEnd": 10,
-         "yPosStart": 31,
-         "yPosEnd": 71
-      },
-      {
-         "code": "16",
-         "xPosStart": 29,
-         "xPosEnd": 41,
-         "yPosStart": 28,
-         "yPosEnd": 60
-      },
-      {
-         "code": "26",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "45",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      }
-   ]
+  "text": [
+    "…an old and ruinous part of the House. Turning a corner the music we had been hearing became louder and at last we saw the musicians themselves.",
+    "They were so involved they failed to hear us. The music was suited to the scene - a moody, romantic melody. We stopped to listen and I admit that I, too, was affected by the sound as well as by the spectacle of the masked players.",
+    "One of the visitors noticed me listening. “Beautiful music, don't you think?”",
+    "“It's not bad,” I said stiffly. “The viol brings the right sense of warmth to the piece, but the guitarist is overplaying his part. Still, he adds a certain plangent brio to an otherwise introspective composition…”",
+    "Unwilling to interrupt the concert we slipped past the musicians into the door to…"
+  ],
+  "doors": [
+    {
+      "code": "07",
+      "xPosStart": 5,
+      "xPosEnd": 10,
+      "yPosStart": 31,
+      "yPosEnd": 71
+    },
+    {
+      "code": "16",
+      "xPosStart": 29,
+      "xPosEnd": 41,
+      "yPosStart": 28,
+      "yPosEnd": 60
+    },
+    {
+      "code": "26",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "45",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    }
+  ]
 }

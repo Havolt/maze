@@ -1,40 +1,40 @@
 {
-   "text": [
-      "… a much warmer room. Shadows danced across the floor to the fire's music.",
-      "“Someone’s lost his hat.”",
-      "“Are you sure it’s the hat that is lost?” I asked reasonably enough. No one would answer me.",
-      "Ducking behind a curtain and hurrying down a passageway we came out in …"
-   ],
-   "doors": [
-      {
-         "code": "03",
-         "xPosStart": 85,
-         "xPosEnd": 98,
-         "yPosStart": 28,
-         "yPosEnd": 68
-      },
-      {
-         "code": "09",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "13",
-         "xPosStart": 46,
-         "xPosEnd": 60,
-         "yPosStart": 30,
-         "yPosEnd": 67
-      },
-      {
-         "code": "44",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      }
-   ]
+  "text": [
+    "… a much warmer room. Shadows danced across the floor to the fire's music.",
+    "“Someone’s lost his hat.”",
+    "“Are you sure it’s the hat that is lost?” I asked reasonably enough. No one would answer me.",
+    "Ducking behind a curtain and hurrying down a passageway we came out in …"
+  ],
+  "doors": [
+    {
+      "code": "03",
+      "xPosStart": 85,
+      "xPosEnd": 98,
+      "yPosStart": 28,
+      "yPosEnd": 68
+    },
+    {
+      "code": "09",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "13",
+      "xPosStart": 46,
+      "xPosEnd": 60,
+      "yPosStart": 30,
+      "yPosEnd": 67
+    },
+    {
+      "code": "44",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    }
+  ]
 }

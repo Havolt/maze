@@ -1,47 +1,47 @@
 {
-   "text": [
-      "…the next room.",
-      "In one corner a savage animal appeared ready to leap out, roaring, rending with tusk and claw…but it was only a bit of taxidermy after all.",
-      "I suggested they might wish to hang up their coats before going on.",
-      "“How will we find them?” one asked. “We might not pass through here again.”",
-      "I assured them I would help them to return. “You can count on me,” I said sincerely. Still, they wouldn't leave anything behind.",
-      "Opening one of the doors we made our way to…"
-   ],
-   "doors": [
-      {
-         "code": "04",
-         "xPosStart": 35,
-         "xPosEnd": 48,
-         "yPosStart": 25,
-         "yPosEnd": 61
-      },
-      {
-         "code": "22",
-         "xPosStart": 3,
-         "xPosEnd": 12,
-         "yPosStart": 25,
-         "yPosEnd": 81
-      },
-      {
-         "code": "25",
-         "xPosStart": 58,
-         "xPosEnd": 71,
-         "yPosStart": 25,
-         "yPosEnd": 61
-      },
-      {
-         "code": "30",
-         "xPosStart": 18,
-         "xPosEnd": 24,
-         "yPosStart": 25,
-         "yPosEnd": 67
-      },
-      {
-         "code": "37",
-         "xPosStart": 82,
-         "xPosEnd": 95,
-         "yPosStart": 25,
-         "yPosEnd": 61
-      }
-   ]
+  "text": [
+    "…the next room.",
+    "In one corner a savage animal appeared ready to leap out, roaring, rending with tusk and claw…but it was only a bit of taxidermy after all.",
+    "I suggested they might wish to hang up their coats before going on.",
+    "“How will we find them?” one asked. “We might not pass through here again.”",
+    "I assured them I would help them to return. “You can count on me,” I said sincerely. Still, they wouldn't leave anything behind.",
+    "Opening one of the doors we made our way to…"
+  ],
+  "doors": [
+    {
+      "code": "04",
+      "xPosStart": 35,
+      "xPosEnd": 48,
+      "yPosStart": 25,
+      "yPosEnd": 61
+    },
+    {
+      "code": "22",
+      "xPosStart": 3,
+      "xPosEnd": 12,
+      "yPosStart": 25,
+      "yPosEnd": 81
+    },
+    {
+      "code": "25",
+      "xPosStart": 58,
+      "xPosEnd": 71,
+      "yPosStart": 25,
+      "yPosEnd": 61
+    },
+    {
+      "code": "30",
+      "xPosStart": 18,
+      "xPosEnd": 24,
+      "yPosStart": 25,
+      "yPosEnd": 67
+    },
+    {
+      "code": "37",
+      "xPosStart": 82,
+      "xPosEnd": 95,
+      "yPosStart": 25,
+      "yPosEnd": 61
+    }
+  ]
 }

@@ -1,57 +1,57 @@
 {
-   "text": [
-      "…a much smaller room.",
-      "A person with a white staff turned to face us. His associate shrugged, not an easy thing to do in his position, and went back to what he had been doing.",
-      "“Look, look,” said the person with the staff. “This is very important…”",
-      "I snatched the paper from his hand and tore it to pieces.",
-      "“How will he find his way without directions?” the group wanted to know.",
-      "“Don’t worry,” said the man, “here blindness is no disadvantage.”",
-      "I hurried my visitors out as quickly as I could to…"
-   ],
-   "doors": [
-      {
-         "code": "02",
-         "xPosStart": 75,
-         "xPosEnd": 81,
-         "yPosStart": 17,
-         "yPosEnd": 65
-      },
-      {
-         "code": "04",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "08",
-         "xPosStart": 5,
-         "xPosEnd": 12,
-         "yPosStart": 21,
-         "yPosEnd": 81
-      },
-      {
-         "code": "17",
-         "hidden": true,
-         "xPosStart": 42,
-         "xPosEnd": 58,
-         "yPosStart": 55,
-         "yPosEnd": 68
-      },
-      {
-         "code": "35",
-         "xPosStart": 55,
-         "xPosEnd": 69,
-         "yPosStart": 17,
-         "yPosEnd": 55
-      },
-      {
-         "code": "40",
-         "xPosStart": 19,
-         "xPosEnd": 25,
-         "yPosStart": 19,
-         "yPosEnd": 65
-      }
-   ]
+  "text": [
+    "…a much smaller room.",
+    "A person with a white staff turned to face us. His associate shrugged, not an easy thing to do in his position, and went back to what he had been doing.",
+    "“Look, look,” said the person with the staff. “This is very important…”",
+    "I snatched the paper from his hand and tore it to pieces.",
+    "“How will he find his way without directions?” the group wanted to know.",
+    "“Don’t worry,” said the man, “here blindness is no disadvantage.”",
+    "I hurried my visitors out as quickly as I could to…"
+  ],
+  "doors": [
+    {
+      "code": "02",
+      "xPosStart": 75,
+      "xPosEnd": 81,
+      "yPosStart": 17,
+      "yPosEnd": 65
+    },
+    {
+      "code": "04",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "08",
+      "xPosStart": 5,
+      "xPosEnd": 12,
+      "yPosStart": 21,
+      "yPosEnd": 81
+    },
+    {
+      "code": "17",
+      "hidden": true,
+      "xPosStart": 42,
+      "xPosEnd": 58,
+      "yPosStart": 55,
+      "yPosEnd": 68
+    },
+    {
+      "code": "35",
+      "xPosStart": 55,
+      "xPosEnd": 69,
+      "yPosStart": 17,
+      "yPosEnd": 55
+    },
+    {
+      "code": "40",
+      "xPosStart": 19,
+      "xPosEnd": 25,
+      "yPosStart": 19,
+      "yPosEnd": 65
+    }
+  ]
 }

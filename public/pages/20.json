@@ -1,40 +1,40 @@
 {
-   "text": [
-      "…room number 20. The ringing stopped as soon as we entered.",
-      "“What is the matter now?” I asked them.",
-      "“Too many animals for a proper house!”",
-      "They walked carefully around the edges of the room. I watched with an amusement shared, I think, by the wise old tortoise.",
-      "With backwards looks and muttered comments about turtles they left room number 20 and entered…"
-   ],
-   "doors": [
-      {
-         "code": "01",
-         "xPosStart": 90,
-         "xPosEnd": 98,
-         "yPosStart": 20,
-         "yPosEnd": 73
-      },
-      {
-         "code": "05",
-         "xPosStart": 3,
-         "xPosEnd": 9,
-         "yPosStart": 19,
-         "yPosEnd": 70
-      },
-      {
-         "code": "27",
-         "xPosStart": 59,
-         "xPosEnd": 73,
-         "yPosStart": 19,
-         "yPosEnd": 60
-      },
-      {
-         "code": "37",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      }
-   ]
+  "text": [
+    "…room number 20. The ringing stopped as soon as we entered.",
+    "“What is the matter now?” I asked them.",
+    "“Too many animals for a proper house!”",
+    "They walked carefully around the edges of the room. I watched with an amusement shared, I think, by the wise old tortoise.",
+    "With backwards looks and muttered comments about turtles they left room number 20 and entered…"
+  ],
+  "doors": [
+    {
+      "code": "01",
+      "xPosStart": 90,
+      "xPosEnd": 98,
+      "yPosStart": 20,
+      "yPosEnd": 73
+    },
+    {
+      "code": "05",
+      "xPosStart": 3,
+      "xPosEnd": 9,
+      "yPosStart": 19,
+      "yPosEnd": 70
+    },
+    {
+      "code": "27",
+      "xPosStart": 59,
+      "xPosEnd": 73,
+      "yPosStart": 19,
+      "yPosEnd": 60
+    },
+    {
+      "code": "37",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    }
+  ]
 }

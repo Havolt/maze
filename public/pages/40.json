@@ -1,26 +1,41 @@
 {
-   "text": [
-      "…the foundation of the Maze. Deep underground stones had been carved and fitted; passages opened in the natural rock.",
-      "“These symbols are quite unusual,” said one. “They seem to be primitive signs…”",
-      "“Do you know what signs?” I asked him.",
-      "“Oh, you know… wind and water, hills and planets.”",
-      "It was surprising that he could identify any of the symbols, but I was relieved that he couldn’t read them correctly.",
-      "Choosing more or less at random they went through a passageway to…"
-   ],
-   "doors": [
-      {
-         "code": "06",
-"xPosStart": 27, "xPosEnd": 39, "yPosStart": 43, "yPosEnd": 76      },
-      {
-         "code": "11",
-"xPosStart": 0, "xPosEnd": 13, "yPosStart": 36, "yPosEnd": 83      },
-      {
-         "code": "29",
-         "trick": true,
-        "xPosStart": 0, "xPosEnd": 0, "yPosStart": 0, "yPosEnd": 0
-      },
-      {
-         "code": "38",
-"xPosStart": 54, "xPosEnd": 63, "yPosStart": 36, "yPosEnd": 57      }
-   ]
+  "text": [
+    "…the foundation of the Maze. Deep underground stones had been carved and fitted; passages opened in the natural rock.",
+    "“These symbols are quite unusual,” said one. “They seem to be primitive signs…”",
+    "“Do you know what signs?” I asked him.",
+    "“Oh, you know… wind and water, hills and planets.”",
+    "It was surprising that he could identify any of the symbols, but I was relieved that he couldn’t read them correctly.",
+    "Choosing more or less at random they went through a passageway to…"
+  ],
+  "doors": [
+    {
+      "code": "06",
+      "xPosStart": 27,
+      "xPosEnd": 39,
+      "yPosStart": 43,
+      "yPosEnd": 76
+    },
+    {
+      "code": "11",
+      "xPosStart": 0,
+      "xPosEnd": 13,
+      "yPosStart": 36,
+      "yPosEnd": 83
+    },
+    {
+      "code": "29",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "38",
+      "xPosStart": 54,
+      "xPosEnd": 63,
+      "yPosStart": 36,
+      "yPosEnd": 57
+    }
+  ]
 }

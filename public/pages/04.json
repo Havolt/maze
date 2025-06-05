@@ -1,76 +1,76 @@
 {
-   "text": [
-      "…the great hall of many doors.\n\n“What a foolish face,” I snorted. “Pay no attention.”",
-      "A sound made them all turn suddenly. A small black cat ran out of a door to my right, sniffed at us, and, before I could move, ran out of the hall. It was fortunate that I was still standing with the rest of them or they might have noticed.",
-      "Faint voices came down one of the corridors.",
-      "“Shall we toss a coin?” I asked. “Or have you made up your minds?”",
-      "They hadn't made up their minds, and they had no coins. By a process of elimination they decided to go to…"
-   ],
-   "doors": [
-      {
-         "code": "11",
-         "xPosStart": 46,
-         "xPosEnd": 54,
-         "yPosStart": 31,
-         "yPosEnd": 56
-      },
-      {
-         "code": "15",
-         "xPosStart": 35,
-         "xPosEnd": 38,
-         "yPosStart": 33,
-         "yPosEnd": 61
-      },
-      {
-         "code": "16",
-         "xPosStart": 63,
-         "xPosEnd": 65,
-         "yPosStart": 33,
-         "yPosEnd": 63
-      },
-      {
-         "code": "24",
-         "xPosStart": 69,
-         "xPosEnd": 75,
-         "yPosStart": 33,
-         "yPosEnd": 73
-      },
-      {
-         "code": "29",
-         "xPosStart": 25,
-         "xPosEnd": 32,
-         "yPosStart": 32,
-         "yPosEnd": 67
-      },
-      {
-         "code": "39",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "42",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "43",
-         "xPosStart": 83,
-         "xPosEnd": 96,
-         "yPosStart": 34,
-         "yPosEnd": 91
-      },
-      {
-         "code": "44",
-         "xPosStart": 5,
-         "xPosEnd": 18,
-         "yPosStart": 32,
-         "yPosEnd": 80
-      }
-   ]
+  "text": [
+    "…the great hall of many doors.\n\n“What a foolish face,” I snorted. “Pay no attention.”",
+    "A sound made them all turn suddenly. A small black cat ran out of a door to my right, sniffed at us, and, before I could move, ran out of the hall. It was fortunate that I was still standing with the rest of them or they might have noticed.",
+    "Faint voices came down one of the corridors.",
+    "“Shall we toss a coin?” I asked. “Or have you made up your minds?”",
+    "They hadn't made up their minds, and they had no coins. By a process of elimination they decided to go to…"
+  ],
+  "doors": [
+    {
+      "code": "11",
+      "xPosStart": 46,
+      "xPosEnd": 54,
+      "yPosStart": 31,
+      "yPosEnd": 56
+    },
+    {
+      "code": "15",
+      "xPosStart": 35,
+      "xPosEnd": 38,
+      "yPosStart": 33,
+      "yPosEnd": 61
+    },
+    {
+      "code": "16",
+      "xPosStart": 63,
+      "xPosEnd": 65,
+      "yPosStart": 33,
+      "yPosEnd": 63
+    },
+    {
+      "code": "24",
+      "xPosStart": 69,
+      "xPosEnd": 75,
+      "yPosStart": 33,
+      "yPosEnd": 73
+    },
+    {
+      "code": "29",
+      "xPosStart": 25,
+      "xPosEnd": 32,
+      "yPosStart": 32,
+      "yPosEnd": 67
+    },
+    {
+      "code": "39",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "42",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "43",
+      "xPosStart": 83,
+      "xPosEnd": 96,
+      "yPosStart": 34,
+      "yPosEnd": 91
+    },
+    {
+      "code": "44",
+      "xPosStart": 5,
+      "xPosEnd": 18,
+      "yPosStart": 32,
+      "yPosEnd": 80
+    }
+  ]
 }

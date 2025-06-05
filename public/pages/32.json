@@ -1,41 +1,41 @@
 {
-   "text": [
-      "…a large square room with a hole rudely broken through one wall. It must have taken a great deal of strength to pull the heavy stones out of position.",
-      "The symmetry was also disturbed by the apparent loss of one of the room’s statues. My visitors thought a thief had broken into the room, removed the figure, and made away with it. This, of course, was one explanation.",
-      "“Another one!” they cried.",
-      "“You mean another representative of the animal kingdom?” I asked.",
-      "“What is a bird like that doing here?”",
-      "“Roosting, evidently.” Their attitude was really beginning to irritate me. I have come to think of all the inhabitants of this House as members of my little kingdom. People can be so arrogant…in a very real way we are all of us animals, at least in part.",
-      "I wouldn't answer any more of their questions so we left this room to enter…"
-   ],
-   "doors": [
-      {
-         "code": "06",
-         "xPosStart": 42,
-         "xPosEnd": 59,
-         "yPosStart": 29,
-         "yPosEnd": 61
-      },
-      {
-         "code": "11",
-         "xPosStart": 2,
-         "xPosEnd": 16,
-         "yPosStart": 44,
-         "yPosEnd": 71
-      },
-      {
-         "code": "16",
-         "xPosStart": 34,
-         "xPosEnd": 71,
-         "yPosStart": 85,
-         "yPosEnd": 94
-      },
-      {
-         "code": "28",
-         "xPosStart": 91,
-         "xPosEnd": 98,
-         "yPosStart": 36,
-         "yPosEnd": 86
-      }
-   ]
+  "text": [
+    "…a large square room with a hole rudely broken through one wall. It must have taken a great deal of strength to pull the heavy stones out of position.",
+    "The symmetry was also disturbed by the apparent loss of one of the room’s statues. My visitors thought a thief had broken into the room, removed the figure, and made away with it. This, of course, was one explanation.",
+    "“Another one!” they cried.",
+    "“You mean another representative of the animal kingdom?” I asked.",
+    "“What is a bird like that doing here?”",
+    "“Roosting, evidently.” Their attitude was really beginning to irritate me. I have come to think of all the inhabitants of this House as members of my little kingdom. People can be so arrogant…in a very real way we are all of us animals, at least in part.",
+    "I wouldn't answer any more of their questions so we left this room to enter…"
+  ],
+  "doors": [
+    {
+      "code": "06",
+      "xPosStart": 42,
+      "xPosEnd": 59,
+      "yPosStart": 29,
+      "yPosEnd": 61
+    },
+    {
+      "code": "11",
+      "xPosStart": 2,
+      "xPosEnd": 16,
+      "yPosStart": 44,
+      "yPosEnd": 71
+    },
+    {
+      "code": "16",
+      "xPosStart": 34,
+      "xPosEnd": 71,
+      "yPosStart": 85,
+      "yPosEnd": 94
+    },
+    {
+      "code": "28",
+      "xPosStart": 91,
+      "xPosEnd": 98,
+      "yPosStart": 36,
+      "yPosEnd": 86
+    }
+  ]
 }

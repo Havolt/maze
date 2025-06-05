@@ -1,43 +1,43 @@
 {
-   "text": [
-      "…a stone chamber which reminded me of my old neighbors. Of course, that was a long time ago now, but would you believe their descendants are still telling stories about me and my family to their children?",
-      "Even if most of the stories are lies and exaggerations, it is immortality of a sort.",
-      "As I passed in front of an open doorway a figure, crossing the hall outside, saw me and immediately ran off.",
-      "“Who was that?” they asked.",
-      "“Another visitor, to be sure.”",
-      "“Why did he run away?”",
-      "“You probably scared him,” I said, and they apparently believed me.",
-      "With few regrets on my part we left for…"
-   ],
-   "doors": [
-      {
-         "code": "04",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "07",
-         "xPosStart": 87,
-         "xPosEnd": 96,
-         "yPosStart": 30,
-         "yPosEnd": 77
-      },
-      {
-         "code": "32",
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "36",
-         "xPosStart": 4,
-         "xPosEnd": 12,
-         "yPosStart": 29,
-         "yPosEnd": 72
-      }
-   ]
+  "text": [
+    "…a stone chamber which reminded me of my old neighbors. Of course, that was a long time ago now, but would you believe their descendants are still telling stories about me and my family to their children?",
+    "Even if most of the stories are lies and exaggerations, it is immortality of a sort.",
+    "As I passed in front of an open doorway a figure, crossing the hall outside, saw me and immediately ran off.",
+    "“Who was that?” they asked.",
+    "“Another visitor, to be sure.”",
+    "“Why did he run away?”",
+    "“You probably scared him,” I said, and they apparently believed me.",
+    "With few regrets on my part we left for…"
+  ],
+  "doors": [
+    {
+      "code": "04",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "07",
+      "xPosStart": 87,
+      "xPosEnd": 96,
+      "yPosStart": 30,
+      "yPosEnd": 77
+    },
+    {
+      "code": "32",
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "36",
+      "xPosStart": 4,
+      "xPosEnd": 12,
+      "yPosStart": 29,
+      "yPosEnd": 72
+    }
+  ]
 }

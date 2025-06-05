@@ -1,41 +1,41 @@
 {
-   "text": [
-      "…a room with a floor of sand.",
-      "“Amphorae,” I pronounced; empty, of course.",
-      "“This is an easier choice to make,” they said.",
-      "“You may think so,” I muttered to myself, “but your choices are more limited than you know.”",
-      "One should never accept the obvious here. If you think of the Maze as a machine, confusion is its product, and the machine was hard at work.",
-      "Ignoring my good advice they hurried into…"
-   ],
-   "doors": [
-      {
-         "code": "06",
-         "xPosStart": 3,
-         "xPosEnd": 12,
-         "yPosStart": 59,
-         "yPosEnd": 78
-      },
-      {
-         "code": "29",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "33",
-         "xPosStart": 85,
-         "xPosEnd": 94,
-         "yPosStart": 44,
-         "yPosEnd": 87
-      },
-      {
-         "code": "45",
-         "xPosStart": 44,
-         "xPosEnd": 55,
-         "yPosStart": 28,
-         "yPosEnd": 56
-      }
-   ]
+  "text": [
+    "…a room with a floor of sand.",
+    "“Amphorae,” I pronounced; empty, of course.",
+    "“This is an easier choice to make,” they said.",
+    "“You may think so,” I muttered to myself, “but your choices are more limited than you know.”",
+    "One should never accept the obvious here. If you think of the Maze as a machine, confusion is its product, and the machine was hard at work.",
+    "Ignoring my good advice they hurried into…"
+  ],
+  "doors": [
+    {
+      "code": "06",
+      "xPosStart": 3,
+      "xPosEnd": 12,
+      "yPosStart": 59,
+      "yPosEnd": 78
+    },
+    {
+      "code": "29",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "33",
+      "xPosStart": 85,
+      "xPosEnd": 94,
+      "yPosStart": 44,
+      "yPosEnd": 87
+    },
+    {
+      "code": "45",
+      "xPosStart": 44,
+      "xPosEnd": 55,
+      "yPosStart": 28,
+      "yPosEnd": 56
+    }
+  ]
 }

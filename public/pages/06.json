@@ -1,42 +1,42 @@
 {
-   "text": [
-      "…a gloomy, cavelike place far underground. Even I was oppressed by the weight that hung over our heads. A very small hole, high above, admitted a feeble light.",
-      "Standing in the light one of them put his hand out. “I think it may be raining out there…”",
-      "They didn’t like the look of the place.",
-      "“You continue to judge everything by the way it looks!” I cried, exasperated by their timidity. I knew I shouldn’t have said anything. If you think of all the deceptions practiced in my family, particularly on my father…",
-      "We went down the only way open to us and came to…"
-   ],
-   "doors": [
-      {
-         "code": "08",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "17",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "32",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      },
-      {
-         "code": "40",
-         "xPosStart": 30,
-         "xPosEnd": 44,
-         "yPosStart": 29,
-         "yPosEnd": 62
-      }
-   ]
+  "text": [
+    "…a gloomy, cavelike place far underground. Even I was oppressed by the weight that hung over our heads. A very small hole, high above, admitted a feeble light.",
+    "Standing in the light one of them put his hand out. “I think it may be raining out there…”",
+    "They didn’t like the look of the place.",
+    "“You continue to judge everything by the way it looks!” I cried, exasperated by their timidity. I knew I shouldn’t have said anything. If you think of all the deceptions practiced in my family, particularly on my father…",
+    "We went down the only way open to us and came to…"
+  ],
+  "doors": [
+    {
+      "code": "08",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "17",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "32",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    },
+    {
+      "code": "40",
+      "xPosStart": 30,
+      "xPosEnd": 44,
+      "yPosStart": 29,
+      "yPosEnd": 62
+    }
+  ]
 }

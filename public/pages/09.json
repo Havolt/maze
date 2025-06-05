@@ -1,32 +1,32 @@
 {
-   "text": [
-      "…what appeared to be an old storeroom. Dust obscured a damaged painting making it hard to understand just what the artist had intended.",
-      "“This could be a trick of some sort,” one said. “We might be going around in circles.”",
-      "“I don’t think so,” said the thoughtful one. “I think we’re supposed to think it’s a trick…that’s the trick.”",
-      "They all looked at me. “Yes,” I said. “I’m sure you’re right about that.”\nWith doubtful looks they left for…"
-   ],
-   "doors": [
-      {
-         "code": "03",
-         "xPosStart": 8,
-         "xPosEnd": 15,
-         "yPosStart": 36,
-         "yPosEnd": 76
-      },
-      {
-         "code": "18",
-         "xPosStart": 65,
-         "xPosEnd": 78,
-         "yPosStart": 34,
-         "yPosEnd": 65
-      },
-      {
-         "code": "27",
-         "trick": true,
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      }
-   ]
+  "text": [
+    "…what appeared to be an old storeroom. Dust obscured a damaged painting making it hard to understand just what the artist had intended.",
+    "“This could be a trick of some sort,” one said. “We might be going around in circles.”",
+    "“I don’t think so,” said the thoughtful one. “I think we’re supposed to think it’s a trick…that’s the trick.”",
+    "They all looked at me. “Yes,” I said. “I’m sure you’re right about that.”\nWith doubtful looks they left for…"
+  ],
+  "doors": [
+    {
+      "code": "03",
+      "xPosStart": 8,
+      "xPosEnd": 15,
+      "yPosStart": 36,
+      "yPosEnd": 76
+    },
+    {
+      "code": "18",
+      "xPosStart": 65,
+      "xPosEnd": 78,
+      "yPosStart": 34,
+      "yPosEnd": 65
+    },
+    {
+      "code": "27",
+      "trick": true,
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    }
+  ]
 }

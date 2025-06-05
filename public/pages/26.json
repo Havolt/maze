@@ -1,40 +1,40 @@
 {
-   "text": [
-      "…a dramatic room with four entrances and exits. “Not enough light in here,” they remarked. “Not very tidy either.”",
-      "“Which way now, children?” I asked in my most patronizing voice.",
-      "They objected to my tone, but it distracted them from the real clues. The game usually goes as I plan it, despite the intentions of my visitors, or perhaps because of their intentions.",
-      "“What the devil is this supposed to be?” one asked. They gathered around and I realized they were close to something. I quickly picked up the bell, ringing it loudly.",
-      "“Was this what you heard outside?”",
-      "Holding their ears they ran out the door to…"
-   ],
-   "doors": [
-      {
-         "code": "01",
-         "xPosStart": 84,
-         "xPosEnd": 93,
-         "yPosStart": 31,
-         "yPosEnd": 65
-      },
-      {
-         "code": "30",
-         "xPosStart": 6,
-         "xPosEnd": 15,
-         "yPosStart": 31,
-         "yPosEnd": 63
-      },
-      {
-         "code": "36",
-         "xPosStart": 22,
-         "xPosEnd": 37,
-         "yPosStart": 32,
-         "yPosEnd": 62
-      },
-      {
-         "code": "38",
-         "xPosStart": 63,
-         "xPosEnd": 78,
-         "yPosStart": 31,
-         "yPosEnd": 60
-      }
-   ]
+  "text": [
+    "…a dramatic room with four entrances and exits. “Not enough light in here,” they remarked. “Not very tidy either.”",
+    "“Which way now, children?” I asked in my most patronizing voice.",
+    "They objected to my tone, but it distracted them from the real clues. The game usually goes as I plan it, despite the intentions of my visitors, or perhaps because of their intentions.",
+    "“What the devil is this supposed to be?” one asked. They gathered around and I realized they were close to something. I quickly picked up the bell, ringing it loudly.",
+    "“Was this what you heard outside?”",
+    "Holding their ears they ran out the door to…"
+  ],
+  "doors": [
+    {
+      "code": "01",
+      "xPosStart": 84,
+      "xPosEnd": 93,
+      "yPosStart": 31,
+      "yPosEnd": 65
+    },
+    {
+      "code": "30",
+      "xPosStart": 6,
+      "xPosEnd": 15,
+      "yPosStart": 31,
+      "yPosEnd": 63
+    },
+    {
+      "code": "36",
+      "xPosStart": 22,
+      "xPosEnd": 37,
+      "yPosStart": 32,
+      "yPosEnd": 62
+    },
+    {
+      "code": "38",
+      "xPosStart": 63,
+      "xPosEnd": 78,
+      "yPosStart": 31,
+      "yPosEnd": 60
+    }
+  ]
 }

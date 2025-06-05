@@ -1,32 +1,32 @@
 {
-   "text": [
-      "…a darkened chamber dominated by a large figure.\n\nWe could see that someone had been working here recently; the entrance I had so carefully hidden had been uncovered. I made a note to return as soon as I could and fill in the hole again.",
-      "The visitors were so intrigued with the entrance at the bottom of the excavation that they ignored what the figure was trying to tell them.",
-      "“Where are the workmen?”",
-      "“They must be ahead of us,” I said. “If we hurry we can catch them…I mean catch up with them.”",
-      "I herded the group through the door to…"
-   ],
-   "doors": [
-      {
-         "code": "09",
-         "xPosStart": 47,
-         "xPosEnd": 56,
-         "yPosStart": 74,
-         "yPosEnd": 88
-      },
-      {
-         "code": "13",
-         "xPosStart": 12,
-         "xPosEnd": 19,
-         "yPosStart": 34,
-         "yPosEnd": 71
-      },
-      {
-         "code": "20",
-         "xPosStart": 0,
-         "xPosEnd": 0,
-         "yPosStart": 0,
-         "yPosEnd": 0
-      }
-   ]
+  "text": [
+    "…a darkened chamber dominated by a large figure.\n\nWe could see that someone had been working here recently; the entrance I had so carefully hidden had been uncovered. I made a note to return as soon as I could and fill in the hole again.",
+    "The visitors were so intrigued with the entrance at the bottom of the excavation that they ignored what the figure was trying to tell them.",
+    "“Where are the workmen?”",
+    "“They must be ahead of us,” I said. “If we hurry we can catch them…I mean catch up with them.”",
+    "I herded the group through the door to…"
+  ],
+  "doors": [
+    {
+      "code": "09",
+      "xPosStart": 47,
+      "xPosEnd": 56,
+      "yPosStart": 74,
+      "yPosEnd": 88
+    },
+    {
+      "code": "13",
+      "xPosStart": 12,
+      "xPosEnd": 19,
+      "yPosStart": 34,
+      "yPosEnd": 71
+    },
+    {
+      "code": "20",
+      "xPosStart": 0,
+      "xPosEnd": 0,
+      "yPosStart": 0,
+      "yPosEnd": 0
+    }
+  ]
 }

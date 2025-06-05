@@ -1,33 +1,33 @@
 {
-   "text": [
-      "…room number 13.",
-      "They weren’t really comfortable here and I knew why.",
-      "“No, no,” they said. “We’re not all superstitious.”",
-      "“Only some of you, then?”",
-      "They were worried it might be Friday. Well it’s true that it was closer to the end of the week than they realized. It takes a great deal of experience, certainly more than they possessed, to understand how time works in the Maze. The clock thought it was six in the evening.",
-      "Quickly moving on we came to…"
-   ],
-   "doors": [
-      {
-         "code": "18",
-         "xPosStart": 43,
-         "xPosEnd": 58,
-         "yPosStart": 28,
-         "yPosEnd": 61
-      },
-      {
-         "code": "25",
-         "xPosStart": 89,
-         "xPosEnd": 96,
-         "yPosStart": 25,
-         "yPosEnd": 76
-      },
-      {
-         "code": "27",
-         "xPosStart": 3,
-         "xPosEnd": 12,
-         "yPosStart": 23,
-         "yPosEnd": 69
-      }
-   ]
+  "text": [
+    "…room number 13.",
+    "They weren’t really comfortable here and I knew why.",
+    "“No, no,” they said. “We’re not all superstitious.”",
+    "“Only some of you, then?”",
+    "They were worried it might be Friday. Well it’s true that it was closer to the end of the week than they realized. It takes a great deal of experience, certainly more than they possessed, to understand how time works in the Maze. The clock thought it was six in the evening.",
+    "Quickly moving on we came to…"
+  ],
+  "doors": [
+    {
+      "code": "18",
+      "xPosStart": 43,
+      "xPosEnd": 58,
+      "yPosStart": 28,
+      "yPosEnd": 61
+    },
+    {
+      "code": "25",
+      "xPosStart": 89,
+      "xPosEnd": 96,
+      "yPosStart": 25,
+      "yPosEnd": 76
+    },
+    {
+      "code": "27",
+      "xPosStart": 3,
+      "xPosEnd": 12,
+      "yPosStart": 23,
+      "yPosEnd": 69
+    }
+  ]
 }

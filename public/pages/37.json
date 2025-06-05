@@ -1,40 +1,40 @@
 {
-   "text": [
-      "…a long, open room with no roof.",
-      "“What is going on here?” they wondered.",
-      "“Sometimes, important messages are couched in ambiguous terms,” I said. “That net may help you catch the answer to your question.”",
-      "They looked doubtful. “We must look at this from all sides before we make a decision.” At last, they were learning.",
-      "They really couldn't decide which way to go; half of them wanted to go one way, half another. They were close to splitting up when there was a rattling sound and one of the doors was shaken from the other side.",
-      "They all stopped talking and moved closer together. They soon agreed on a direction and we departed for…"
-   ],
-   "doors": [
-      {
-         "code": "10",
-         "xPosStart": 30,
-         "xPosEnd": 47,
-         "yPosStart": 26,
-         "yPosEnd": 59
-      },
-      {
-         "code": "15",
-         "xPosStart": 6,
-         "xPosEnd": 20,
-         "yPosStart": 26,
-         "yPosEnd": 60
-      },
-      {
-         "code": "20",
-         "xPosStart": 80,
-         "xPosEnd": 94,
-         "yPosStart": 26,
-         "yPosEnd": 60
-      },
-      {
-         "code": "42",
-         "xPosStart": 54,
-         "xPosEnd": 70,
-         "yPosStart": 26,
-         "yPosEnd": 59
-      }
-   ]
+  "text": [
+    "…a long, open room with no roof.",
+    "“What is going on here?” they wondered.",
+    "“Sometimes, important messages are couched in ambiguous terms,” I said. “That net may help you catch the answer to your question.”",
+    "They looked doubtful. “We must look at this from all sides before we make a decision.” At last, they were learning.",
+    "They really couldn't decide which way to go; half of them wanted to go one way, half another. They were close to splitting up when there was a rattling sound and one of the doors was shaken from the other side.",
+    "They all stopped talking and moved closer together. They soon agreed on a direction and we departed for…"
+  ],
+  "doors": [
+    {
+      "code": "10",
+      "xPosStart": 30,
+      "xPosEnd": 47,
+      "yPosStart": 26,
+      "yPosEnd": 59
+    },
+    {
+      "code": "15",
+      "xPosStart": 6,
+      "xPosEnd": 20,
+      "yPosStart": 26,
+      "yPosEnd": 60
+    },
+    {
+      "code": "20",
+      "xPosStart": 80,
+      "xPosEnd": 94,
+      "yPosStart": 26,
+      "yPosEnd": 60
+    },
+    {
+      "code": "42",
+      "xPosStart": 54,
+      "xPosEnd": 70,
+      "yPosStart": 26,
+      "yPosEnd": 59
+    }
+  ]
 }

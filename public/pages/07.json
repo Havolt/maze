@@ -1,32 +1,32 @@
 {
-   "text": [
-      "…a pleasant room with three doors and a lamp. Looking at the picture on the wall they decided it wasn’t a very good likeness.",
-      "One of them almost fell over something on the floor. “Why don’t they pick up after themselves?” he said, sounding like an old man.",
-      "“Weren’t you ever irresponsible?” I asked, thinking of my childhood and how wild I had been.",
-      "Music was being played somewhere nearby. We stopped to listen for a moment.",
-      "Leaving the pictures looking out at an empty room we went on to…"
-   ],
-   "doors": [
-      {
-         "code": "16",
-         "xPosStart": 83,
-         "xPosEnd": 88,
-         "yPosStart": 31,
-         "yPosEnd": 80
-      },
-      {
-         "code": "33",
-         "xPosStart": 11,
-         "xPosEnd": 17,
-         "yPosStart": 32,
-         "yPosEnd": 72
-      },
-      {
-         "code": "36",
-         "xPosStart": 44,
-         "xPosEnd": 55,
-         "yPosStart": 28,
-         "yPosEnd": 64
-      }
-   ]
+  "text": [
+    "…a pleasant room with three doors and a lamp. Looking at the picture on the wall they decided it wasn’t a very good likeness.",
+    "One of them almost fell over something on the floor. “Why don’t they pick up after themselves?” he said, sounding like an old man.",
+    "“Weren’t you ever irresponsible?” I asked, thinking of my childhood and how wild I had been.",
+    "Music was being played somewhere nearby. We stopped to listen for a moment.",
+    "Leaving the pictures looking out at an empty room we went on to…"
+  ],
+  "doors": [
+    {
+      "code": "16",
+      "xPosStart": 83,
+      "xPosEnd": 88,
+      "yPosStart": 31,
+      "yPosEnd": 80
+    },
+    {
+      "code": "33",
+      "xPosStart": 11,
+      "xPosEnd": 17,
+      "yPosStart": 32,
+      "yPosEnd": 72
+    },
+    {
+      "code": "36",
+      "xPosStart": 44,
+      "xPosEnd": 55,
+      "yPosStart": 28,
+      "yPosEnd": 64
+    }
+  ]
 }
