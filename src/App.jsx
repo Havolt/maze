@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import './App.css'
 
 import MazePage from './components/MazePage/MazePage'
@@ -14,7 +14,7 @@ function App() {
   const [showInstructions, setShowInstructions] = useState(false);
   const [pagesVisited, setPagesVisited] = useState([]);
 
-  const currentPageCode = currentPage.toString().padStart(2, '0');
+  const currentPageCode = useMemo(() => currentPage.toString().padStart(2, '0'), [currentPage]);
 
   // ! Memoize later
   const updateCurrentPage = (newPage) => {
@@ -26,7 +26,7 @@ function App() {
     setCurrentPage(newPage);
     
   }
-  // ! Memoize later
+  // ! Memoize later with useCallback
   const toggleShowText = () => {
     setShowText(!showText);
   }
@@ -37,16 +37,17 @@ function App() {
 
   const pagesVisitedAmount = pagesVisited.length; // +1 for the current page
 
-  console.log(currentPageCode);
-
   return (
     <main className="app">
-      <MazePage 
-        currentPageCode={currentPageCode} 
-        onDoorClick={updateCurrentPage} h
-        showText={showText}
-      />
-      { showInstructions && <MazeInstructions /> }
+      
+      { showInstructions ? 
+        (<MazeInstructions />) : 
+        (<MazePage 
+          currentPageCode={currentPageCode} 
+          onDoorClick={updateCurrentPage} h
+          showText={showText}
+        />) 
+      }
       <MazeControls 
         onToggleShowText={toggleShowText}
         onToggleShowInstructions={toggleShowInstructions}

@@ -4,7 +4,7 @@ import Styles from './MazeInstructions.module.css'
 
 function MazeInstructions() {
   return (
-    <div className={Styles.MazeInstructions}>
+    <div className={Styles.mazeInstructions}>
       <p>This is not really a book.</p>
 
       <p>This is a building in the shape of a book…a maze. Each numbered page depicts a room in the Maze. The doors in each room lead to other rooms. For example, the room on page 1 has doors leading to rooms 20, 26, 41, and 21. To go through door number 20, simply turn to page 20.</p>
