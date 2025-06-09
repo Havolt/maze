@@ -1,12 +1,14 @@
 import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
-import './MazeControlsButton.module.css'
+import Styles from './MazeControlsButton.module.css'
 
-function MazeControlsButton() {
+function MazeControlsButton({ icon, text, onClick }) {
   return (
-    <div><FontAwesomeIcon icon={faCircleInfo} /></div>
+    <button className={Styles.mazeControlsButton} onClick={onClick}>
+      <FontAwesomeIcon icon={icon} />
+      <span>{text}</span>
+    </button>
   )
 }
 

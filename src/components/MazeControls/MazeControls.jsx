@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Styles from './MazeControls.module.css'
+import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
 import MazeControlsButton from '../MazeControlsButton/MazeControlsButton'
 
 function MazeControls({
@@ -10,9 +11,16 @@ function MazeControls({
 }) {
   return (
     <div className={Styles.mazeControls}>
-      {/* <MazeControlsButton /> */}
-      <button onClick={onToggleShowText}>Toggle text</button>
-      <button onClick={onToggleShowInstructions}>Show Instructions</button>
+      <MazeControlsButton
+        icon={faCircleInfo}
+        text="Show Text"
+        onClick={onToggleShowText}
+      />
+      <MazeControlsButton
+        icon={faCircleInfo}
+        text="Show Instructions"
+        onClick={onToggleShowInstructions}
+      />
       <span className={Styles.stepCounter}>Steps: {pagesVisitedAmount}</span>
     </div>
   )
