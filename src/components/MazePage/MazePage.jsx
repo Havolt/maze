@@ -1,13 +1,17 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef, useContext } from 'react'
 
 import MazeDoor from '../MazeDoor/MazeDoor'
-
 import Styles from './MazePage.module.css'
+import { MazeContext } from '../../store/MazeContext'
 
 import { getLocation } from '../../helpers/devUtils'
 
-function MazePage({ currentPageCode = '00', onDoorClick, showText = true }) {
+function MazePage() {
   const [pageData, setPageData] = useState(null)
+
+  const { currentPageCode = '00', updateCurrentPage, showText } = useContext(MazeContext)
+
+  
 
   const myRef = useRef(null)
 
@@ -61,7 +65,7 @@ function MazePage({ currentPageCode = '00', onDoorClick, showText = true }) {
 
         {/* Doors */}
         {pageData.doors.map((door, index) => (
-          <MazeDoor key={index} door={door} onDoorClick={onDoorClick} />
+          <MazeDoor key={index} door={door} onDoorClick={updateCurrentPage} />
         ))}
       </div>
     </div>

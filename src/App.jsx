@@ -5,7 +5,7 @@ import MazePage from './components/MazePage/MazePage'
 import MazeInstructions from './components/MazeInstructions/MazeInstructions'
 import MazeControls from './components/MazeControls/MazeControls'
 
-import { MazeProvider } from './store/MazeContext'
+import { MazeProvider } from './store/MazeProvider'
 
 const MAX_PAGE = 45
 
