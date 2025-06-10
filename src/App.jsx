@@ -5,6 +5,8 @@ import MazePage from './components/MazePage/MazePage'
 import MazeInstructions from './components/MazeInstructions/MazeInstructions'
 import MazeControls from './components/MazeControls/MazeControls'
 
+import { MazeProvider } from './store/MazeContext'
+
 const MAX_PAGE = 45
 
 function App() {
@@ -41,23 +43,25 @@ function App() {
   const pagesVisitedAmount = pagesVisited.length // +1 for the current page
 
   return (
-    <main className="app">
-      {showInstructions ? (
-        <MazeInstructions />
-      ) : (
-        <MazePage
-          currentPageCode={currentPageCode}
-          onDoorClick={updateCurrentPage}
-          h
-          showText={showText}
+    <MazeProvider>
+      <main className="app">
+        {showInstructions ? (
+          <MazeInstructions />
+        ) : (
+          <MazePage
+            currentPageCode={currentPageCode}
+            onDoorClick={updateCurrentPage}
+            h
+            showText={showText}
+          />
+        )}
+        <MazeControls
+          onToggleShowText={toggleShowText}
+          onToggleShowInstructions={toggleShowInstructions}
+          pagesVisitedAmount={pagesVisitedAmount}
         />
-      )}
-      <MazeControls
-        onToggleShowText={toggleShowText}
-        onToggleShowInstructions={toggleShowInstructions}
-        pagesVisitedAmount={pagesVisitedAmount}
-      />
-    </main>
+      </main>
+    </MazeProvider>
   )
 }
 
