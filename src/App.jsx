@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useContext } from 'react'
 import './App.css'
 
 import MazePage from './components/MazePage/MazePage'
@@ -6,11 +6,13 @@ import MazeInstructions from './components/MazeInstructions/MazeInstructions'
 import MazeControls from './components/MazeControls/MazeControls'
 
 import { MazeProvider } from './store/MazeProvider'
+import { MazeContext } from './store/MazeContext'
 
 const MAX_PAGE = 45
 
 function App() {
-  const [currentPage, setCurrentPage] = useState(0)
+  const { currentPage } = useContext(MazeContext)
+  // const [currentPage, setCurrentPage] = useState(0)
   const [showText, setShowText] = useState(true)
   const [showInstructions, setShowInstructions] = useState(false)
   const [pagesVisited, setPagesVisited] = useState([])
@@ -21,16 +23,16 @@ function App() {
   )
 
   // ! Memoize later
-  const updateCurrentPage = (newPage) => {
-    if (newPage < 0 || newPage > MAX_PAGE) {
-      console.warn(
-        `Invalid page update: ${newPage}. Must be between 0 and ${MAX_PAGE}.`
-      )
-      return
-    }
-    setPagesVisited([...pagesVisited, currentPageCode])
-    setCurrentPage(newPage)
-  }
+  // const updateCurrentPage = (newPage) => {
+  //   if (newPage < 0 || newPage > MAX_PAGE) {
+  //     console.warn(
+  //       `Invalid page update: ${newPage}. Must be between 0 and ${MAX_PAGE}.`
+  //     )
+  //     return
+  //   }
+  //   setPagesVisited([...pagesVisited, currentPageCode])
+  //   setCurrentPage(newPage)
+  // }
   // ! Memoize later with useCallback
   const toggleShowText = () => {
     setShowText(!showText)
@@ -48,12 +50,7 @@ function App() {
         {showInstructions ? (
           <MazeInstructions />
         ) : (
-          <MazePage
-            currentPageCode={currentPageCode}
-            onDoorClick={updateCurrentPage}
-            h
-            showText={showText}
-          />
+          <MazePage currentPageCode={currentPageCode} showText={showText} />
         )}
         <MazeControls
           onToggleShowText={toggleShowText}

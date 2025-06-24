@@ -1,11 +1,14 @@
-import React from 'react'
+import { useContext } from 'react'
 
 import Styles from './MazeDoor.module.css'
+import { MazeContext } from '../../store/MazeContext'
 
-function MazeDoor({ door, onDoorClick }) {
-  console.log('MazeDoor', door)
+function MazeDoor({ door }) {
+  // console.log('MazeDoor', door)
 
-  console.log('Door data:', door)
+  // console.log('Door data:', door)
+
+  const { updateCurrentPage } = useContext(MazeContext)
 
   const doorStyle = {
     left: door.xPosStart + '%',
@@ -18,10 +21,10 @@ function MazeDoor({ door, onDoorClick }) {
     console.log('Door clicked:', door.code)
     // Here you can add logic to handle the door click,
     // such as navigating to a new page or opening a modal.
-    onDoorClick(door.code)
+    updateCurrentPage(door.code)
   }
 
-  console.log('Door style:', doorStyle)
+  // console.log('Door style:', doorStyle)
 
   return (
     <div

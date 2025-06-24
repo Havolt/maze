@@ -9,9 +9,7 @@ import { getLocation } from '../../helpers/devUtils'
 function MazePage() {
   const [pageData, setPageData] = useState(null)
 
-  const { currentPageCode = '00', updateCurrentPage, showText } = useContext(MazeContext)
-
-  
+  const { currentPageCode, showText } = useContext(MazeContext)
 
   const myRef = useRef(null)
 
@@ -65,7 +63,7 @@ function MazePage() {
 
         {/* Doors */}
         {pageData.doors.map((door, index) => (
-          <MazeDoor key={index} door={door} onDoorClick={updateCurrentPage} />
+          <MazeDoor key={index} door={door} />
         ))}
       </div>
     </div>
