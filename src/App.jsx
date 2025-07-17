@@ -21,23 +21,6 @@ function App() {
     () => currentPage.toString().padStart(2, '0'),
     [currentPage]
   )
-
-  // ! Memoize later
-  // const updateCurrentPage = (newPage) => {
-  //   if (newPage < 0 || newPage > MAX_PAGE) {
-  //     console.warn(
-  //       `Invalid page update: ${newPage}. Must be between 0 and ${MAX_PAGE}.`
-  //     )
-  //     return
-  //   }
-  //   setPagesVisited([...pagesVisited, currentPageCode])
-  //   setCurrentPage(newPage)
-  // }
-  // ! Memoize later with useCallback
-  const toggleShowText = () => {
-    setShowText(!showText)
-  }
-
   const toggleShowInstructions = () => {
     setShowInstructions(!showInstructions)
   }
@@ -53,7 +36,6 @@ function App() {
           <MazePage currentPageCode={currentPageCode} showText={showText} />
         )}
         <MazeControls
-          onToggleShowText={toggleShowText}
           onToggleShowInstructions={toggleShowInstructions}
           pagesVisitedAmount={pagesVisitedAmount}
         />
