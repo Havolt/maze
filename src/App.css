@@ -1,7 +1,7 @@
 #root {
   max-width: 1600px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0.2rem;
   text-align: center;
 }
 
@@ -10,4 +10,10 @@
   background-color: rgb(32, 32, 32);
   border-radius: 0.5rem;
   border: 2px solid #777979;
+}
+
+@media screen and (min-width: 620px) {
+  .app {
+    max-height: calc(100vh - 2rem);
+  }
 }
