@@ -5,8 +5,9 @@ import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
 import MazeControlsButton from '../MazeControlsButton/MazeControlsButton'
 import { MazeContext } from '../../store/MazeContext'
 
-function MazeControls({ onToggleShowInstructions, pagesVisitedAmount }) {
-  const { toggleShowText } = useContext(MazeContext)
+function MazeControls({ onToggleShowInstructions }) {
+  const { toggleShowText, pagesVisited } = useContext(MazeContext)
+  const pagesVisitedAmount = pagesVisited.length // +1 for the current page
   return (
     <div className={Styles.mazeControls}>
       <MazeControlsButton
