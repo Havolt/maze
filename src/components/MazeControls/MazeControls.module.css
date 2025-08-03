@@ -4,9 +4,13 @@
   justify-content: space-between;
   border-left: 3px solid #777979;
   padding: 0.4rem;
+  gap: 0.6rem;
 }
 
 .stepCounter {
+  display: flex;
+  justify-content: center;
   font-size: 1.4rem;
   font-weight: bold;
+  height: 5rem;
 }

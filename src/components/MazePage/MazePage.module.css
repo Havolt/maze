@@ -23,6 +23,12 @@
   height: fit-content;
 }
 
+@media screen and (min-width: 1100px) {
+  .mazeImage {
+    min-width: 55%;
+  }
+}
+
 .pageText {
   display: flex;
   flex-direction: column;
