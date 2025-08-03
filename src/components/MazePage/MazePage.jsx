@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useContext } from 'react'
+import { useState, useEffect, useRef, useContext } from 'react'
 
 import MazeDoor from '../MazeDoor/MazeDoor'
 import Styles from './MazePage.module.css'

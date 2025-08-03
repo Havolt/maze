@@ -1,5 +1,4 @@
 import { useState, useMemo } from 'react'
-
 import { MazeContext } from './MazeContext'
 
 const MAX_PAGE = 45
