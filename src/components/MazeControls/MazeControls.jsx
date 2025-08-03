@@ -6,13 +6,13 @@ import MazeControlsButton from '@/components/MazeControlsButton/MazeControlsButt
 import { MazeContext } from '@/store/MazeContext'
 
 function MazeControls({ onToggleShowInstructions }) {
-  const { toggleShowText, pagesVisited } = useContext(MazeContext)
+  const { toggleShowText, pagesVisited, showText } = useContext(MazeContext)
   const pagesVisitedAmount = pagesVisited.length // +1 for the current page
   return (
     <div className={Styles.mazeControls}>
       <MazeControlsButton
         icon={faCircleInfo}
-        text="Show Text"
+        text={showText ? 'Hide Text' : 'Show Text'}
         onClick={toggleShowText}
       />
       <MazeControlsButton
