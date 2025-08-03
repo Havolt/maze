@@ -1,13 +1,9 @@
 import { useContext } from 'react'
 
 import Styles from './MazeDoor.module.css'
-import { MazeContext } from '../../store/MazeContext'
+import { MazeContext } from '@/store/MazeContext'
 
 function MazeDoor({ door }) {
-  // console.log('MazeDoor', door)
-
-  // console.log('Door data:', door)
-
   const { updateCurrentPage } = useContext(MazeContext)
 
   const doorStyle = {

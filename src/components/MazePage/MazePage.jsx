@@ -2,9 +2,9 @@ import React, { useState, useEffect, useRef, useContext } from 'react'
 
 import MazeDoor from '../MazeDoor/MazeDoor'
 import Styles from './MazePage.module.css'
-import { MazeContext } from '../../store/MazeContext'
+import { MazeContext } from '@/store/MazeContext'
 
-import { getLocation } from '../../helpers/devUtils'
+import { getLocation } from '@/helpers/devUtils'
 
 function MazePage() {
   const [pageData, setPageData] = useState(null)
