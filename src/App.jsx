@@ -1,11 +1,11 @@
-import { useState, useMemo, useContext } from 'react'
+import { useState } from 'react'
 import './App.css'
 
 import MazePage from './components/MazePage/MazePage'
-import MazeInstructions from './components/MazeInstructions/MazeInstructions'
-import MazeControls from './components/MazeControls/MazeControls'
+import MazeInstructions from '@/components/MazeInstructions/MazeInstructions'
+import MazeControls from '@/components/MazeControls/MazeControls'
 
-import { MazeProvider } from './store/MazeProvider'
+import { MazeProvider } from '@/store/MazeProvider'
 
 function App() {
   const [showInstructions, setShowInstructions] = useState(false)

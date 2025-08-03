@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useContext } from 'react'
 
-import MazeDoor from '../MazeDoor/MazeDoor'
+import MazeDoor from '@/components/MazeDoor/MazeDoor'
 import Styles from './MazePage.module.css'
 import { MazeContext } from '@/store/MazeContext'
 
