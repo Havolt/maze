@@ -1,4 +1,4 @@
-import {createContext} from 'react';
+import { createContext } from 'react'
 
 export const MazeContext = createContext({
   currentPage: 0,
@@ -8,4 +8,4 @@ export const MazeContext = createContext({
   updateCurrentPage: () => {},
   toggleShowText: () => {},
   toggleShowInstructions: () => {},
-});
+})

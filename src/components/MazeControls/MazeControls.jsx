@@ -1,7 +1,11 @@
 import { useContext } from 'react'
 
 import Styles from './MazeControls.module.css'
-import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
+import {
+  faCircleInfo,
+  faTextSlash,
+  faQuoteLeft,
+} from '@fortawesome/free-solid-svg-icons'
 import MazeControlsButton from '@/components/MazeControlsButton/MazeControlsButton'
 import { MazeContext } from '@/store/MazeContext'
 
@@ -12,7 +16,7 @@ function MazeControls({ onToggleShowInstructions }) {
     <aside className={Styles.mazeControls}>
       <div>
         <MazeControlsButton
-          icon={faCircleInfo}
+          icon={showText ? faTextSlash : faQuoteLeft}
           text={showText ? 'Hide Text' : 'Show Text'}
           onClick={toggleShowText}
         />
