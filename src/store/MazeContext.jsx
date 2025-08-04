@@ -7,5 +7,5 @@ export const MazeContext = createContext({
   pagesVisited: [],
   updateCurrentPage: () => {},
   toggleShowText: () => {},
-  toggleShowInstructions: () => {},
+  // toggleShowInstructions: () => {},
 })

@@ -6,7 +6,7 @@ const MAX_PAGE = 45
 export const MazeProvider = ({ children }) => {
   const [currentPage, setCurrentPage] = useState(0)
   const [showText, setShowText] = useState(true)
-  const [showInstructions, setShowInstructions] = useState(false)
+  // const [showInstructions, setShowInstructions] = useState(false)
   const [pagesVisited, setPagesVisited] = useState([])
 
   const currentPageCode = useMemo(
@@ -31,19 +31,19 @@ export const MazeProvider = ({ children }) => {
     setShowText(!showText)
   }
 
-  const toggleShowInstructions = () => {
-    setShowInstructions(!showInstructions)
-  }
+  // const toggleShowInstructions = () => {
+  //   setShowInstructions(!showInstructions)
+  // }
 
   const mazeCtx = {
     currentPage,
     currentPageCode,
     showText,
-    showInstructions,
+    // showInstructions,
     pagesVisited,
     updateCurrentPage,
     toggleShowText,
-    toggleShowInstructions,
+    // toggleShowInstructions,
   }
 
   return <MazeContext.Provider value={mazeCtx}>{children}</MazeContext.Provider>

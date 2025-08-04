@@ -5,11 +5,12 @@ import {
   faCircleInfo,
   faTextSlash,
   faQuoteLeft,
+  faWindowRestore,
 } from '@fortawesome/free-solid-svg-icons'
 import MazeControlsButton from '@/components/MazeControlsButton/MazeControlsButton'
 import { MazeContext } from '@/store/MazeContext'
 
-function MazeControls({ onToggleShowInstructions }) {
+function MazeControls({ onToggleShowInstructions, showInstructions }) {
   const { toggleShowText, pagesVisited, showText } = useContext(MazeContext)
   const pagesVisitedAmount = pagesVisited.length // +1 for the current page
   return (
@@ -21,8 +22,8 @@ function MazeControls({ onToggleShowInstructions }) {
           onClick={toggleShowText}
         />
         <MazeControlsButton
-          icon={faCircleInfo}
-          text="Show Instructions"
+          icon={showInstructions ? faWindowRestore : faCircleInfo}
+          text={showInstructions ? 'Hide Instructions' : 'Show Instructions'}
           onClick={onToggleShowInstructions}
         />
       </div>
