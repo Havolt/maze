@@ -9,8 +9,8 @@ function MazeControls({ onToggleShowInstructions }) {
   const { toggleShowText, pagesVisited, showText } = useContext(MazeContext)
   const pagesVisitedAmount = pagesVisited.length // +1 for the current page
   return (
-    <div>
-      <div className={Styles.mazeControls}>
+    <aside className={Styles.mazeControls}>
+      <div>
         <MazeControlsButton
           icon={faCircleInfo}
           text={showText ? 'Hide Text' : 'Show Text'}
@@ -23,7 +23,7 @@ function MazeControls({ onToggleShowInstructions }) {
         />
       </div>
       <span className={Styles.stepCounter}>Steps: {pagesVisitedAmount}</span>
-    </div>
+    </aside>
   )
 }
 
