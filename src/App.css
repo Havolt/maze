@@ -9,17 +9,12 @@
   display: flex;
   background-color: rgb(32, 32, 32);
   border-radius: 0.5rem;
-  border: 2px solid #777979;
+  flex-direction: column;
+  box-shadow: 0 0 0.4rem whitesmoke;
 }
 
 @media screen and (min-width: 1100px) {
   .app {
     max-height: calc(100vh - 2rem);
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .app {
-    flex-direction: column;
   }
 }
