@@ -12,7 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --control-panel-height: var(--control-panel-height);
+  --control-panel-height: 8rem;
 }
 
 a {

@@ -53,8 +53,13 @@ function MazePage() {
 
   return (
     <div className={Styles.mazePage}>
-      {showText && <PageText />}
-      <div className={Styles.mazeDivision}></div>
+      {showText && (
+        <>
+          <PageText />
+          <div className={Styles.mazeDivision}></div>
+        </>
+      )}
+
       <div className={Styles.mazeImage} onClick={getLocation} ref={myRef}>
         {/* Image */}
         <picture>
