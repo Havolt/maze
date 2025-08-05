@@ -6,6 +6,7 @@ const MAX_PAGE = 45
 export const MazeProvider = ({ children }) => {
   const [currentPage, setCurrentPage] = useState(0)
   const [showText, setShowText] = useState(true)
+  const [reducedImage, setReducedImage] = useState(false)
   // const [showInstructions, setShowInstructions] = useState(false)
   const [pagesVisited, setPagesVisited] = useState([])
 
@@ -31,6 +32,11 @@ export const MazeProvider = ({ children }) => {
     setShowText(!showText)
   }
 
+  const toggleReducedImage = () => {
+    console.log('here')
+    setReducedImage(!reducedImage)
+  }
+
   // const toggleShowInstructions = () => {
   //   setShowInstructions(!showInstructions)
   // }
@@ -39,10 +45,12 @@ export const MazeProvider = ({ children }) => {
     currentPage,
     currentPageCode,
     showText,
+    reducedImage,
     // showInstructions,
     pagesVisited,
     updateCurrentPage,
     toggleShowText,
+    toggleReducedImage,
     // toggleShowInstructions,
   }
 

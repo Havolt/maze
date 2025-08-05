@@ -6,12 +6,20 @@ import {
   faTextSlash,
   faQuoteLeft,
   faWindowRestore,
+  faArrowsToCircle,
+  faArrowsLeftRightToLine,
 } from '@fortawesome/free-solid-svg-icons'
 import MazeControlsButton from '@/components/MazeControlsButton/MazeControlsButton'
 import { MazeContext } from '@/store/MazeContext'
 
 function MazeControls({ onToggleShowInstructions, showInstructions }) {
-  const { toggleShowText, pagesVisited, showText } = useContext(MazeContext)
+  const {
+    toggleShowText,
+    pagesVisited,
+    showText,
+    reducedImage,
+    toggleReducedImage,
+  } = useContext(MazeContext)
   const pagesVisitedAmount = pagesVisited.length // +1 for the current page
   return (
     <aside className={Styles.mazeControls}>
@@ -25,6 +33,11 @@ function MazeControls({ onToggleShowInstructions, showInstructions }) {
           icon={showInstructions ? faWindowRestore : faCircleInfo}
           text={showInstructions ? 'Hide Instructions' : 'Show Instructions'}
           onClick={onToggleShowInstructions}
+        />
+        <MazeControlsButton
+          icon={reducedImage ? faArrowsToCircle : faArrowsLeftRightToLine}
+          text={reducedImage ? 'Reduce Image Size' : 'Increase Image Size'}
+          onClick={toggleReducedImage}
         />
       </div>
       <span className={Styles.stepCounter}>Steps: {pagesVisitedAmount}</span>
