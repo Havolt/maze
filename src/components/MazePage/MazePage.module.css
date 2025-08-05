@@ -5,10 +5,6 @@
   align-items: center;
   flex-direction: column;
   padding: 0 1.6rem;
-
-  &--reduced {
-    max-height: 80vh;
-  }
 }
 
 .mazePage img {
@@ -27,6 +23,11 @@
 .mazeImage {
   position: relative;
   min-height: 275px;
+}
+
+.mazeImage__reduced source,
+.mazeImage__reduced img {
+  max-height: 80vh;
 }
 
 .pageText {

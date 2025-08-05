@@ -35,8 +35,8 @@ function MazeControls({ onToggleShowInstructions, showInstructions }) {
           onClick={onToggleShowInstructions}
         />
         <MazeControlsButton
-          icon={reducedImage ? faArrowsToCircle : faArrowsLeftRightToLine}
-          text={reducedImage ? 'Reduce Image Size' : 'Increase Image Size'}
+          icon={reducedImage ? faArrowsLeftRightToLine : faArrowsToCircle}
+          text={reducedImage ? 'Increase Image Size' : 'Reduce Image Size'}
           onClick={toggleReducedImage}
         />
       </div>

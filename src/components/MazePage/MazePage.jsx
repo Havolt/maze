@@ -9,7 +9,7 @@ import { getLocation } from '@/helpers/devUtils'
 function MazePage() {
   const [pageData, setPageData] = useState(null)
 
-  const { currentPageCode, showText } = useContext(MazeContext)
+  const { currentPageCode, showText, reducedImage } = useContext(MazeContext)
 
   const myRef = useRef(null)
 
@@ -51,6 +51,12 @@ function MazePage() {
     </div>
   )
 
+  const imageClasses = () => {
+    const reducedClass = reducedImage ? Styles.mazeImage__reduced : ''
+
+    return `${Styles.mazeImage} ${reducedClass}`
+  }
+
   return (
     <div className={Styles.mazePage}>
       {showText && (
@@ -60,7 +66,7 @@ function MazePage() {
         </>
       )}
 
-      <div className={Styles.mazeImage} onClick={getLocation} ref={myRef}>
+      <div className={imageClasses()} onClick={getLocation} ref={myRef}>
         {/* Image */}
         <picture>
           <source srcSet={imgHref} />
