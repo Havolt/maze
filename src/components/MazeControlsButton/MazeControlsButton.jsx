@@ -5,7 +5,7 @@ import Styles from './MazeControlsButton.module.css'
 
 function MazeControlsButton({ icon, text, onClick }) {
   return (
-    <button className={Styles.controlsButton} onClick={onClick}>
+    <button className={Styles.controlsButton} type="button" onClick={onClick}>
       <FontAwesomeIcon icon={icon} />
       <span>{text}</span>
     </button>

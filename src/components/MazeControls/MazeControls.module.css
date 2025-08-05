@@ -11,10 +11,12 @@
   height: var(--control-panel-height);
   box-shadow: 2px 0 2px #343434;
 
+  /* Buttons containing div */
   & > div {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+    align-items: center;
   }
 }
 
