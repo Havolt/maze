@@ -38,6 +38,7 @@ function MazeControls({ onToggleShowInstructions, showInstructions }) {
           icon={reducedImage ? faArrowsLeftRightToLine : faArrowsToCircle}
           text={reducedImage ? 'Increase Image Size' : 'Reduce Image Size'}
           onClick={toggleReducedImage}
+          className={Styles.mazeButtonImage}
         />
       </div>
       <span className={Styles.stepCounter}>Steps: {pagesVisitedAmount}</span>

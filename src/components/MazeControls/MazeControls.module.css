@@ -28,3 +28,10 @@
   align-items: center;
   padding-right: 4rem;
 }
+
+@media screen and (max-width: 900px) {
+  /* Add specifity to overwrite existing styles */
+  .mazeControls .mazeButtonImage {
+    display: none;
+  }
+}
