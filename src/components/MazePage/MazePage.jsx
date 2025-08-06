@@ -1,9 +1,10 @@
 import { useState, useEffect, useRef, useContext } from 'react'
 
 import MazeDoor from '@/components/MazeDoor/MazeDoor'
-import Styles from './MazePage.module.css'
+import MazeDivider from '@/components/MazeDivider/MazeDivider'
 import { MazeContext } from '@/store/MazeContext'
 
+import Styles from './MazePage.module.css'
 import { getLocation } from '@/helpers/devUtils'
 
 function MazePage() {
@@ -60,10 +61,11 @@ function MazePage() {
   return (
     <div className={Styles.mazePage}>
       {showText && (
-        <>
+        <div className={Styles.pageTextContainer}>
+          <MazeDivider />
           <PageText />
-          <div className={Styles.mazeDivision}></div>
-        </>
+          <MazeDivider />
+        </div>
       )}
 
       <div className={imageClasses()} onClick={getLocation} ref={myRef}>

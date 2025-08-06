@@ -1,0 +1,7 @@
+.mazeDivider {
+  height: 0.2rem;
+  background-color: rgb(179, 179, 179);
+  width: 80%;
+  border-radius: 0.4rem;
+  max-width: 70rem;
+}
