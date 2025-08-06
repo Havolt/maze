@@ -14,7 +14,7 @@
 
 .mazeImage {
   position: relative;
-  min-height: 275px;
+  min-height: 27rem;
 }
 
 .mazeImage__reduced source,

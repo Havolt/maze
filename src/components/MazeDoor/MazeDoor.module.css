@@ -6,7 +6,7 @@
 
 .door:hover {
   background-color: #c1d7df8e;
-  box-shadow: 0px 0px 10px 10px #c1d7df8e;
+  box-shadow: 0 0 10rem 1rem #c1d7df8e;
   cursor: pointer;
   opacity: 0.7;
   transition: opacity 0.2s ease-in-out;
