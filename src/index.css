@@ -12,8 +12,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  /* Variables */
   --control-panel-height: 8rem;
   --page-text-max-width: 90rem;
+  --control-panel-color: #000000a4;
+  --default-border-radius: 0.5rem;
+  --default-font-size: 1.4rem;
 }
 
 a {
@@ -44,7 +48,6 @@ h1 {
 }
 
 button {
-  font-size: 1em;
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;

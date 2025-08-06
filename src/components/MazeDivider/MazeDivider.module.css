@@ -2,6 +2,6 @@
   height: 0.2rem;
   background-color: rgb(179, 179, 179);
   width: 80%;
-  border-radius: 0.4rem;
+  border-radius: var(--default-border-radius);
   max-width: 70rem;
 }

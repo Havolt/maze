@@ -1,17 +1,17 @@
 .controlsButton {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: 1.4rem;
+  font-size: var(--default-font-size);
   gap: 0.5rem;
   width: 100%;
   height: 7rem;
-  border-radius: 8px;
+  border-radius: var(--default-border-radius);
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   border: 1px solid #aeaeae;
   background-color: #1a1a1ad9;
+  width: 12rem;
 
   &:focus,
   &:focus-visible,

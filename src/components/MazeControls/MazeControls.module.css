@@ -7,9 +7,8 @@
   padding: 0rem 1.6rem;
   gap: 0.6rem;
   width: 100%;
-  background-color: #000000a4;
+  background-color: var(--control-panel-color);
   height: var(--control-panel-height);
-  box-shadow: 2px 0 2px #343434;
   transition: transform 0.5s;
 
   /* Buttons containing div */
@@ -46,7 +45,7 @@
   top: 0;
   left: 0;
   font-size: 2.5rem;
-  background-color: #000000a4;
+  background-color: var(--control-panel-color);
   padding: 0.2rem 1rem;
   transform: translateY(-100%);
   border-top-right-radius: 0.5rem;
