@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import { useContext, useState } from 'react'
 
 import Styles from './MazeControls.module.css'
 import {
@@ -8,9 +8,12 @@ import {
   faWindowRestore,
   faArrowsToCircle,
   faArrowsLeftRightToLine,
+  faAngleDown,
+  faAngleUp,
 } from '@fortawesome/free-solid-svg-icons'
 import MazeControlsButton from '@/components/MazeControlsButton/MazeControlsButton'
 import { MazeContext } from '@/store/MazeContext'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function MazeControls({ onToggleShowInstructions, showInstructions }) {
   const {
@@ -21,8 +24,11 @@ function MazeControls({ onToggleShowInstructions, showInstructions }) {
     toggleReducedImage,
   } = useContext(MazeContext)
   const pagesVisitedAmount = pagesVisited.length // +1 for the current page
+
+  const [hideControls, setHideControls] = useState(false)
+  const mazeControlsClasses = `${Styles.mazeControls} ${hideControls ? Styles['mazeControls--hidden'] : ''}`
   return (
-    <aside className={Styles.mazeControls}>
+    <aside className={mazeControlsClasses}>
       <div>
         {/* Toggle text */}
         <MazeControlsButton
@@ -45,6 +51,14 @@ function MazeControls({ onToggleShowInstructions, showInstructions }) {
         />
       </div>
       <span className={Styles.stepCounter}>Steps: {pagesVisitedAmount}</span>
+      <button
+        className={Styles.mazeControlsToggle}
+        onClick={() => setHideControls(!hideControls)}
+        type="button"
+        title="Toggle controls"
+      >
+        <FontAwesomeIcon icon={hideControls ? faAngleUp : faAngleDown} />
+      </button>
     </aside>
   )
 }

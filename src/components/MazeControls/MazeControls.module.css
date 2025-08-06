@@ -10,6 +10,7 @@
   background-color: #000000a4;
   height: var(--control-panel-height);
   box-shadow: 2px 0 2px #343434;
+  transition: transform 0.5s;
 
   /* Buttons containing div */
   & > div {
@@ -18,6 +19,10 @@
     gap: 1rem;
     align-items: center;
   }
+}
+
+.mazeControls--hidden {
+  transform: translateY(100%);
 }
 
 .stepCounter {
@@ -34,4 +39,16 @@
   .mazeControls .mazeButtonImage {
     display: none;
   }
+}
+
+.mazeControlsToggle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 2.5rem;
+  background-color: #000000a4;
+  padding: 0.2rem 1rem;
+  transform: translateY(-100%);
+  border-top-right-radius: 0.5rem;
+  border: none;
 }
