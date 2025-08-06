@@ -1,10 +1,14 @@
 import { memo } from 'react'
 
+import MazeDivider from '@/components/MazeDivider/MazeDivider'
+
 import Styles from './MazeInstructions.module.css'
 
 function MazeInstructions() {
   return (
     <div className={Styles.mazeInstructions}>
+      <MazeDivider />
+      <br />
       <p>This is not really a book.</p>
 
       <p>
@@ -39,6 +43,8 @@ function MazeInstructions() {
       </p>
 
       <p>Now proceed to the Prologue…your guide awaits you.”</p>
+      <br />
+      <MazeDivider />
     </div>
   )
 }
