@@ -24,16 +24,19 @@ function MazeControls({ onToggleShowInstructions, showInstructions }) {
   return (
     <aside className={Styles.mazeControls}>
       <div>
+        {/* Toggle text */}
         <MazeControlsButton
           icon={showText ? faTextSlash : faQuoteLeft}
           text={showText ? 'Hide Text' : 'Show Text'}
           onClick={toggleShowText}
         />
+        {/* Toggle Instructions */}
         <MazeControlsButton
           icon={showInstructions ? faWindowRestore : faCircleInfo}
           text={showInstructions ? 'Hide Instructions' : 'Show Instructions'}
           onClick={onToggleShowInstructions}
         />
+        {/* Toggle image size */}
         <MazeControlsButton
           icon={reducedImage ? faArrowsLeftRightToLine : faArrowsToCircle}
           text={reducedImage ? 'Increase Image Size' : 'Reduce Image Size'}
