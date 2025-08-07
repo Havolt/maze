@@ -9,7 +9,7 @@ function MazeHistory() {
   console.log(pagesVisited)
 
   return (
-    <div>
+    <div className={Styles.mazeHistory}>
       {pagesVisited.map((pageNum) => {
         return <span>{pageNum}</span>
       })}

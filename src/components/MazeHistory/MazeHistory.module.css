@@ -1,0 +1,22 @@
+.mazeHistory {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 9rem;
+  font-size: 1.5rem;
+  background-color: #00000080;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scrollbar-width: none;
+
+  span {
+    background-color: black;
+    padding: 0.2rem 0.4rem;
+    border: 1px solid white;
+  }
+}
