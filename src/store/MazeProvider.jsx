@@ -4,7 +4,7 @@ import { MazeContext } from '@/store/MazeContext'
 const MAX_PAGE = 45
 
 export const MazeProvider = ({ children }) => {
-  const [currentPage, setCurrentPage] = useState(0)
+  const [currentPage, setCurrentPage] = useState('00')
   const [showText, setShowText] = useState(true)
   const [reducedImage, setReducedImage] = useState(false)
   // const [showInstructions, setShowInstructions] = useState(false)

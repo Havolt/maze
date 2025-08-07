@@ -1,7 +1,6 @@
 .mazeHistory {
   height: 3rem;
   display: flex;
-  justify-content: center;
   align-items: center;
   border: 1px solid white;
   gap: 0.5rem;
@@ -18,5 +17,6 @@
     background-color: black;
     padding: 0.2rem 0.4rem;
     border: 1px solid white;
+    border-radius: 0.5rem;
   }
 }
