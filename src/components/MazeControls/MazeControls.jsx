@@ -12,6 +12,7 @@ import {
   faAngleUp,
 } from '@fortawesome/free-solid-svg-icons'
 import MazeControlsButton from '@/components/MazeControlsButton/MazeControlsButton'
+import MazeHistory from '@/components/MazeHistory/MazeHistory'
 import { MazeContext } from '@/store/MazeContext'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -50,7 +51,10 @@ function MazeControls({ onToggleShowInstructions, showInstructions }) {
           className={Styles.mazeButtonImage}
         />
       </div>
-      <span className={Styles.stepCounter}>Steps: {pagesVisitedAmount}</span>
+      <div>
+        <MazeHistory />
+        <span className={Styles.stepCounter}>Steps: {pagesVisitedAmount}</span>
+      </div>
       <button
         className={Styles.mazeControlsToggle}
         onClick={() => setHideControls(!hideControls)}
