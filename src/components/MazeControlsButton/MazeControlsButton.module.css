@@ -13,7 +13,6 @@
   background-color: #1a1a1ad9;
   width: 12rem;
 
-  &:focus,
   &:focus-visible,
   &:hover {
     background-color: #474747;
