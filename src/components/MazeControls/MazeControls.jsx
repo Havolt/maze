@@ -24,19 +24,24 @@ function MazeControls({ onToggleShowInstructions, showInstructions }) {
     reducedImage,
     toggleReducedImage,
   } = useContext(MazeContext)
-  const pagesVisitedAmount = pagesVisited.length // +1 for the current page
 
   const [hideControls, setHideControls] = useState(false)
+
   const mazeControlsClasses = `${Styles.mazeControls} ${hideControls ? Styles['mazeControls--hidden'] : ''}`
+
+  const pagesVisitedAmount = pagesVisited.length // +1 for the current page
+
   return (
     <aside className={mazeControlsClasses}>
       <div>
         {/* Toggle text */}
-        <MazeControlsButton
-          icon={showText ? faTextSlash : faQuoteLeft}
-          text={showText ? 'Hide Text' : 'Show Text'}
-          onClick={toggleShowText}
-        />
+        {!showInstructions && (
+          <MazeControlsButton
+            icon={showText ? faTextSlash : faQuoteLeft}
+            text={showText ? 'Hide Text' : 'Show Text'}
+            onClick={toggleShowText}
+          />
+        )}
         {/* Toggle Instructions */}
         <MazeControlsButton
           icon={showInstructions ? faWindowRestore : faCircleInfo}
@@ -44,12 +49,14 @@ function MazeControls({ onToggleShowInstructions, showInstructions }) {
           onClick={onToggleShowInstructions}
         />
         {/* Toggle image size */}
-        <MazeControlsButton
-          icon={reducedImage ? faArrowsLeftRightToLine : faArrowsToCircle}
-          text={reducedImage ? 'Increase Image Size' : 'Reduce Image Size'}
-          onClick={toggleReducedImage}
-          className={Styles.mazeButtonImage}
-        />
+        {!showInstructions && (
+          <MazeControlsButton
+            icon={reducedImage ? faArrowsLeftRightToLine : faArrowsToCircle}
+            text={reducedImage ? 'Increase Image Size' : 'Reduce Image Size'}
+            onClick={toggleReducedImage}
+            className={Styles.mazeButtonImage}
+          />
+        )}
       </div>
       <div>
         <MazeHistory />
