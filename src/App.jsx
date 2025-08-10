@@ -9,7 +9,7 @@ import { MazeProvider } from '@/store/MazeProvider'
 
 function App() {
   // These are needed at app level
-  const [showInstructions, setShowInstructions] = useState(false)
+  const [showInstructions, setShowInstructions] = useState(true)
 
   const toggleShowInstructions = () => {
     setShowInstructions(!showInstructions)
@@ -18,7 +18,11 @@ function App() {
   return (
     <MazeProvider>
       <main className="app">
-        {showInstructions ? <MazeInstructions /> : <MazePage />}
+        {showInstructions ? (
+          <MazeInstructions onToggleShowInstructions={toggleShowInstructions} />
+        ) : (
+          <MazePage />
+        )}
         <MazeControls
           showInstructions={showInstructions}
           onToggleShowInstructions={toggleShowInstructions}

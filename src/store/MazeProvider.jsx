@@ -9,6 +9,7 @@ export const MazeProvider = ({ children }) => {
   const [reducedImage, setReducedImage] = useState(false)
   // const [showInstructions, setShowInstructions] = useState(false)
   const [pagesVisited, setPagesVisited] = useState([])
+  const [mazeStarted, setMazeStarted] = useState(false)
 
   const currentPageCode = useMemo(
     () => currentPage.toString().padStart(2, '0'),
@@ -51,6 +52,8 @@ export const MazeProvider = ({ children }) => {
     updateCurrentPage,
     toggleShowText,
     toggleReducedImage,
+    mazeStarted,
+    setMazeStarted,
     // toggleShowInstructions,
   }
 

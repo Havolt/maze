@@ -6,3 +6,7 @@
   font-size: var(--default-font-size);
   max-width: var(--page-text-max-width);
 }
+
+.mazeInstructions__button {
+  font-size: 1.6rem;
+}
