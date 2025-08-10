@@ -23,6 +23,7 @@ function MazeControls({ onToggleShowInstructions, showInstructions }) {
     showText,
     reducedImage,
     toggleReducedImage,
+    mazeStarted,
   } = useContext(MazeContext)
 
   const [hideControls, setHideControls] = useState(false)
@@ -32,7 +33,10 @@ function MazeControls({ onToggleShowInstructions, showInstructions }) {
   const pagesVisitedAmount = pagesVisited.length // +1 for the current page
 
   return (
-    <aside className={mazeControlsClasses}>
+    <aside
+      style={{ display: mazeStarted ? 'flex' : 'none' }}
+      className={mazeControlsClasses}
+    >
       <div>
         {/* Toggle text */}
         {!showInstructions && (
