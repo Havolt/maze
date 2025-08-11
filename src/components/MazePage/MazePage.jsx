@@ -10,7 +10,8 @@ import { getLocation } from '@/helpers/devUtils'
 function MazePage() {
   const [pageData, setPageData] = useState(null)
 
-  const { currentPageCode, showText, reducedImage } = useContext(MazeContext)
+  const { currentPageCode, showText, reducedImage, restartMaze } =
+    useContext(MazeContext)
 
   const myRef = useRef(null)
 
@@ -58,6 +59,9 @@ function MazePage() {
     return `${Styles.mazeImage} ${reducedClass}`
   }
 
+  // No escaping the maze!
+  const gameOver = currentPageCode === '24'
+
   return (
     <div className={Styles.mazePage}>
       {showText && (
@@ -80,6 +84,15 @@ function MazePage() {
           <MazeDoor key={index} door={door} />
         ))}
       </div>
+      {gameOver && (
+        <button
+          onClick={restartMaze}
+          type="button"
+          className={Styles['mazePage__button']}
+        >
+          Restart
+        </button>
+      )}
     </div>
   )
 }

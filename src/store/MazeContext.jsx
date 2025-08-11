@@ -5,7 +5,11 @@ export const MazeContext = createContext({
   showText: true,
   showInstructions: false,
   pagesVisited: [],
+  reducedImage: false,
+  mazeStarted: false,
   updateCurrentPage: () => {},
   toggleShowText: () => {},
-  // toggleShowInstructions: () => {},
+  toggleReducedImage: () => {},
+  setMazeStarted: () => {},
+  restartMaze: () => {},
 })

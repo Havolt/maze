@@ -7,7 +7,6 @@ export const MazeProvider = ({ children }) => {
   const [currentPage, setCurrentPage] = useState('00')
   const [showText, setShowText] = useState(true)
   const [reducedImage, setReducedImage] = useState(false)
-  // const [showInstructions, setShowInstructions] = useState(false)
   const [pagesVisited, setPagesVisited] = useState([])
   const [mazeStarted, setMazeStarted] = useState(false)
 
@@ -38,23 +37,24 @@ export const MazeProvider = ({ children }) => {
     setReducedImage(!reducedImage)
   }
 
-  // const toggleShowInstructions = () => {
-  //   setShowInstructions(!showInstructions)
-  // }
+  const restartMaze = () => {
+    setCurrentPage('00')
+    setPagesVisited([])
+    window.scrollTo(0, 0)
+  }
 
   const mazeCtx = {
     currentPage,
     currentPageCode,
     showText,
     reducedImage,
-    // showInstructions,
     pagesVisited,
     updateCurrentPage,
     toggleShowText,
     toggleReducedImage,
     mazeStarted,
     setMazeStarted,
-    // toggleShowInstructions,
+    restartMaze,
   }
 
   return <MazeContext.Provider value={mazeCtx}>{children}</MazeContext.Provider>

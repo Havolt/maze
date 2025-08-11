@@ -42,3 +42,9 @@
     margin: 0.7rem 0;
   }
 }
+
+.mazePage__button {
+  font-size: 2.4rem;
+  padding: 0.2rem 1.4rem;
+  margin: 1.4rem 0 3.2rem 0;
+}
