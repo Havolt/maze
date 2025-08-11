@@ -19,3 +19,16 @@
     outline: 0.2rem solid #888888d9;
   }
 }
+
+@media screen and (max-width: 650px) {
+  .controlsButton {
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.6rem;
+    padding: 0.6rem 0;
+  }
+
+  .controlsButton__text {
+    display: none;
+  }
+}

@@ -53,6 +53,7 @@ function MazeControls({
           <MazeControlsButton
             icon={showText ? faTextSlash : faQuoteLeft}
             text={showText ? 'Hide Text' : 'Show Text'}
+            title="Toggle text"
             onClick={toggleShowText}
           />
         )}
@@ -61,6 +62,7 @@ function MazeControls({
           <MazeControlsButton
             icon={reducedImage ? faArrowsLeftRightToLine : faArrowsToCircle}
             text={reducedImage ? 'Increase Image Size' : 'Reduce Image Size'}
+            title="Toggle image size"
             onClick={toggleReducedImage}
             className={Styles.mazeButtonImage}
           />
@@ -70,6 +72,7 @@ function MazeControls({
           <MazeControlsButton
             icon={showInstructions ? faWindowRestore : faCircleInfo}
             text={showInstructions ? 'Hide Instructions' : 'Show Instructions'}
+            title="Toggle instructions"
             onClick={onToggleShowInstructions}
           />
         )}
@@ -78,6 +81,7 @@ function MazeControls({
           <MazeControlsButton
             icon={showCopyright ? faWindowRestore : faCopyright}
             text={showCopyright ? 'Hide Copyright' : 'Show Copyright'}
+            title="Toggle copyright"
             onClick={onToggleShowCopyright}
             className={Styles.mazeButtonCopyright}
           />
