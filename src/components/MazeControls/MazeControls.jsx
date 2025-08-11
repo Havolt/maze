@@ -10,13 +10,19 @@ import {
   faArrowsLeftRightToLine,
   faAngleDown,
   faAngleUp,
+  faCopyright,
 } from '@fortawesome/free-solid-svg-icons'
 import MazeControlsButton from '@/components/MazeControlsButton/MazeControlsButton'
 import MazeHistory from '@/components/MazeHistory/MazeHistory'
 import { MazeContext } from '@/store/MazeContext'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-function MazeControls({ onToggleShowInstructions, showInstructions }) {
+function MazeControls({
+  onToggleShowInstructions,
+  showInstructions,
+  onToggleShowCopyright,
+  showCopyright,
+}) {
   const {
     toggleShowText,
     pagesVisited,
@@ -32,6 +38,10 @@ function MazeControls({ onToggleShowInstructions, showInstructions }) {
 
   const pagesVisitedAmount = pagesVisited.length // +1 for the current page
 
+  const showingAuxiliary = showInstructions || showCopyright
+  const showingInstructionsOnly = showInstructions && !showCopyright
+  const showingCopyrightOnly = showCopyright && !showInstructions
+
   return (
     <aside
       style={{ display: mazeStarted ? 'flex' : 'none' }}
@@ -39,26 +49,37 @@ function MazeControls({ onToggleShowInstructions, showInstructions }) {
     >
       <div>
         {/* Toggle text */}
-        {!showInstructions && (
+        {!showingAuxiliary && (
           <MazeControlsButton
             icon={showText ? faTextSlash : faQuoteLeft}
             text={showText ? 'Hide Text' : 'Show Text'}
             onClick={toggleShowText}
           />
         )}
-        {/* Toggle Instructions */}
-        <MazeControlsButton
-          icon={showInstructions ? faWindowRestore : faCircleInfo}
-          text={showInstructions ? 'Hide Instructions' : 'Show Instructions'}
-          onClick={onToggleShowInstructions}
-        />
         {/* Toggle image size */}
-        {!showInstructions && (
+        {!showingAuxiliary && (
           <MazeControlsButton
             icon={reducedImage ? faArrowsLeftRightToLine : faArrowsToCircle}
             text={reducedImage ? 'Increase Image Size' : 'Reduce Image Size'}
             onClick={toggleReducedImage}
             className={Styles.mazeButtonImage}
+          />
+        )}
+        {/* Toggle Instructions */}
+        {!showingCopyrightOnly && (
+          <MazeControlsButton
+            icon={showInstructions ? faWindowRestore : faCircleInfo}
+            text={showInstructions ? 'Hide Instructions' : 'Show Instructions'}
+            onClick={onToggleShowInstructions}
+          />
+        )}
+        {/* Copyright */}
+        {!showingInstructionsOnly && (
+          <MazeControlsButton
+            icon={showCopyright ? faWindowRestore : faCopyright}
+            text={showCopyright ? 'Hide Copyright' : 'Show Copyright'}
+            onClick={onToggleShowCopyright}
+            className={Styles.mazeButtonCopyright}
           />
         )}
       </div>

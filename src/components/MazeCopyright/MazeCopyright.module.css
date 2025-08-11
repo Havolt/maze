@@ -1,0 +1,8 @@
+.mazeCopyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  font-size: var(--default-font-size);
+  max-width: var(--page-text-max-width);
+}
