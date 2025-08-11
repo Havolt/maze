@@ -43,19 +43,16 @@ function MazeInstructions({ onToggleShowInstructions }) {
         yourself further. Go back and find the riddle hidden in room 45. The
         answer to that riddle is concealed somewhere on the shortest path.
       </p>
+
+      <p>Now proceed to the Prologue …your guide awaits you.</p>
       {!mazeStarted && (
         <button
           className={Styles['mazeInstructions__button']}
           onClick={startMaze}
         >
-          Now proceed to the Prologue
+          Start
         </button>
       )}
-
-      <p>
-        {mazeStarted && <span>Now proceed to the Prologue</span>}
-        …your guide awaits you.
-      </p>
       <br />
       <MazeDivider />
     </div>
