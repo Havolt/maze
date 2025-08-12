@@ -12,3 +12,9 @@
   flex-direction: column;
   padding-bottom: 8rem;
 }
+
+@media (prefers-color-scheme: light) {
+  .app {
+    background-color: var(--light-background-color);
+  }
+}
