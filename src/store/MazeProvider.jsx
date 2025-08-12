@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import { MazeContext } from '@/store/MazeContext'
 
 const MAX_PAGE = 45
@@ -14,6 +14,13 @@ export const MazeProvider = ({ children }) => {
     () => currentPage.toString().padStart(2, '0'),
     [currentPage]
   )
+
+  useEffect(() => {
+    // Set reducedImage based on window width
+    if (window && window.innerWidth >= 1200) {
+      setReducedImage(true)
+    }
+  }, [])
 
   // ! Memoize later
   const updateCurrentPage = (newPage) => {

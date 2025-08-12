@@ -13,7 +13,7 @@ function MazeControlsButton({ icon, text, onClick, className, title }) {
       title={title}
     >
       <FontAwesomeIcon icon={icon} />
-      <span class={Styles['controlsButton__text']}>{text}</span>
+      <span className={Styles['controlsButton__text']}>{text}</span>
     </button>
   )
 }
