@@ -15,6 +15,8 @@
 .mazeImage {
   position: relative;
   min-height: 27rem;
+  /* Help prevent flashing between image swaps */
+  background-color: #717148;
 }
 
 .mazeImage__reduced source,
