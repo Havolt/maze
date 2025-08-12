@@ -67,12 +67,17 @@ function MazePage() {
       {showText && (
         <div className={Styles.pageTextContainer}>
           <MazeDivider />
-          <PageText />
+          <PageText key={currentPageCode} />
           <MazeDivider />
         </div>
       )}
 
-      <div className={imageClasses()} onClick={getLocation} ref={myRef}>
+      <div
+        key={currentPageCode}
+        onClick={getLocation}
+        ref={myRef}
+        className={imageClasses()}
+      >
         {/* Image */}
         <picture>
           <source srcSet={imgHref} />
